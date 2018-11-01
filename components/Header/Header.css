@@ -1,0 +1,21 @@
+.main {
+	border-bottom: 3px solid var(--YELLOW);
+	display: flex;
+	height: 96px;
+	justify-content: center;
+}
+
+.inner {
+	align-items: center;
+	display: flex;
+	padding: 0 16px;
+	width: 1280px
+}
+
+.nav {
+	margin: 0 72px;
+}
+
+.socialBar {
+	margin: auto 0 auto auto;
+}

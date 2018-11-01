@@ -57,7 +57,7 @@ export default class MyDocument extends Document {
 						meta={DEFAULT_META}
 						title={SITE_NAME} />
 					{headElements}
-					<link href='https://fonts.googleapis.com/css?family=Roboto:200,400' rel='stylesheet' />
+					<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' />
 					<link href='/static/favicon.ico' rel='icon' type='image/x-icon' />
 					<link href='/_next/static/style.css' rel='stylesheet' />
 				</Head>

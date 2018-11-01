@@ -1,0 +1,109 @@
+// @flow
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
+import {type PlayerType, TEAMS} from '../../config';
+import React, {memo} from 'react';
+import InnerContent from '../InnerContent';
+import Link from 'next/link';
+import Logo from '../Logo';
+import styles from './Footer.css';
+
+export const Footer = (): Element<'div'> => (
+	<div className={styles.main}>
+		<InnerContent>
+			<div className={styles.sections}>
+				<div className={styles.section}>
+					<h5 className={styles.sectionTitle}>Organization</h5>
+					<Link href='/'>
+						<a className={styles.link}>Home</a>
+					</Link>
+					<Link href='/events'>
+						<a className={styles.link}>Events</a>
+					</Link>
+					<Link href='/teams'>
+						<a className={styles.link}>Teams</a>
+					</Link>
+					<Link href='/store'>
+						<a className={styles.link}>Store</a>
+					</Link>
+					<Link href='/contact'>
+						<a className={styles.link}>Contact</a>
+					</Link>
+				</div>
+				<div className={styles.section}>
+					<h5 className={styles.sectionTitle}>Team Ignis</h5>
+					{TEAMS.ignis.players.map((player: PlayerType): Element<'a'> => (
+						<a
+							className={styles.link}
+							href={player.twitch ? `https://twitch.tv/${player.twitch}` : '#'}
+							key={player.name}
+							rel='noopener noreferrer'
+							target='_blank'>
+							{player.name}
+						</a>
+					))}
+				</div>
+				<div className={styles.section}>
+					<h5 className={styles.sectionTitle}>Team Ventus</h5>
+					{TEAMS.ventus.players.map((player: PlayerType): Element<'a'> => (
+						<a
+							className={styles.link}
+							href={player.twitch ? `https://twitch.tv/${player.twitch}` : '#'}
+							key={player.name}
+							rel='noopener noreferrer'
+							target='_blank'>
+							{player.name}
+						</a>
+					))}
+				</div>
+				<div className={styles.section}>
+					<h5 className={styles.sectionTitle}>Social</h5>
+					<a
+						className={styles.link}
+						href='https://facebook.com/MagnaEsportsOW'
+						rel='noopener noreferrer'
+						target='_blank'>
+						Facebook
+					</a>
+					<a
+						className={styles.link}
+						href='https://twitter.com/MagnaEsportsOW'
+						rel='noopener noreferrer'
+						target='_blank'>
+						Twitter
+					</a>
+					<a
+						className={styles.link}
+						href='https://instagram.com/magnagaming'
+						rel='noopener noreferrer'
+						target='_blank'>
+						Instagram
+					</a>
+					<a
+						className={styles.link}
+						href='https://youtube.com/channel/UCMCIC0HpGgTmyqLvrAlg4IA'
+						rel='noopener noreferrer'
+						target='_blank'>
+						YouTube
+					</a>
+					<a
+						className={styles.link}
+						href='https://discord.gg/tm6tPD'
+						rel='noopener noreferrer'
+						target='_blank'>
+						Discord
+					</a>
+				</div>
+			</div>
+			<Logo className={styles.logo} />
+			<div className={styles.copy}>
+				<p className={styles.copyP}>&copy; {new Date().getFullYear()} Magna eSports. All Rights Reserved. All product names, logos, and brands are property of their respective owners.</p>
+				<p className={styles.copyP}>Website by <a href='https://www.globexdesigns.com/' rel='noopener noreferrer' target='_blank'>Globex Designs, Inc.</a></p>
+			</div>
+		</InnerContent>
+	</div>
+);
+
+Footer.displayName = 'Footer';
+
+export default memo(Footer);

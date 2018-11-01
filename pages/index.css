@@ -1,2 +1,59 @@
-.main {
+.teaserCenter {
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+.h1 {
+	font-size: 48px;
+	font-weight: 100;
+	margin: 0;
+}
+
+.h1strong {
+	font-weight: 300;
+}
+
+.slogan {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 200%;
+	margin: 32px auto 0;
+	width: 800px;
+}
+
+.sloganButton {
+	margin: 64px auto 0;
+}
+
+.tripleBoxWrapper {
+	display: flex;
+	margin-bottom: 64px;
+	margin-top: 64px;
+}
+
+.tripleBox {
+	flex: 1 1 33.333%;
+	text-align: center;
+}
+
+.competitiveIcon { color: var(--RED) }
+.collaborativeIcon { color: var(--BLUE) }
+.socialIcon { color: var(--GREEN) }
+
+.h3 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 32px;
+}
+
+.tripleBoxP {
+	color: var(--GRAY);
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 200%;
+	margin: 32px;
 }

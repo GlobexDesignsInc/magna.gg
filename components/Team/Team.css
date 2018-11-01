@@ -1,0 +1,72 @@
+.main {
+	padding: 16px 0;
+}
+
+.main + .main {
+	border-top: 1px dashed var(--YELLOW);
+	margin-top: 32px;
+}
+
+.teamName {
+	font-size: 32px;
+	font-weight: 200;
+}
+
+.players {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.player {
+	align-items: flex-start;
+	display: flex;
+	padding: 16px 0;
+	width: 50%;
+}
+
+.playerAvatar {
+	background: black;
+	border-radius: 50%;
+	flex: 0 0 64px;
+	height: 64px;
+	margin-right: 24px;
+	width: 64px;
+}
+
+.playerHeader {
+	display: flex;
+}
+
+.playerHeaderTitle {
+	flex: 0 0 auto;
+}
+
+.playerHeaderSocial {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: flex-end;
+}
+
+.playerInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.playerName {
+	font-size: 22px;
+	font-weight: 200;
+	margin: 0;
+}
+
+.playerRole {
+	color: var(--GRAY);
+	font-style: italic;
+	font-size: 14px;
+}
+
+.playerBio {
+	font-size: 14px;
+	line-height: 24px;
+	margin: 8px 0;
+}

@@ -3,11 +3,40 @@
 	background-size: cover;
 	color: #FFF;
 	display: flex;
-	font-family: Roboto, sans-serif;
 	height: 100%;
 	letter-spacing: 0.5px;
 	margin: 0;
-	overflow: hidden;
 	padding: 0;
 	width: 100%;
+
+	--BLUE: #16ABE0;
+	--DARK-GRAY: #989899;
+	--GRAY: #C8C8C9;
+	--GREEN: #13D36A;
+	--RED: #E64B0E;
+	--YELLOW: #F0D70E;
+}
+
+:global body,
+:global button {
+	font-family: Roboto, sans-serif;
+}
+
+:global #__next {
+	width: 100%;
+}
+
+:global a {
+	color: #FFF;
+	text-decoration: none;
+	transition: color 250ms ease;
+}
+
+:global a:focus,
+:global a:hover {
+	color: var(--YELLOW);
+}
+
+:global a:active {
+	color: var(--GREEN);
 }
