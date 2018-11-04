@@ -40,7 +40,7 @@ export const Home = (): Element<'div'> => (
 					className={styles.competitiveIcon}
 					icon='trophy'
 					size='3x' />
-				<h3 className={styles.h3}>Competitive</h3>
+				<h3>Competitive</h3>
 				<p className={styles.tripleBoxP}>We&apos;re a highly competitive crew and our goal is to become a professional organization competing at the highest levels of the game.</p>
 			</div>
 			<div className={styles.tripleBox}>
@@ -48,7 +48,7 @@ export const Home = (): Element<'div'> => (
 					className={styles.collaborativeIcon}
 					icon='user-friends'
 					size='3x' />
-				<h3 className={styles.h3}>Composed</h3>
+				<h3>Composed</h3>
 				<p className={styles.tripleBoxP}>We have no room for toxicity or attitudes. All our players, coaches and staff embrace the strongest forms of PMA at all times.</p>
 			</div>
 			<div className={styles.tripleBox}>
@@ -56,7 +56,7 @@ export const Home = (): Element<'div'> => (
 					className={styles.socialIcon}
 					icon='comments'
 					size='3x' />
-				<h3 className={styles.h3}>Social</h3>
+				<h3>Social</h3>
 				<p className={styles.tripleBoxP}>We hold weekly social community events & games on our <a href='https://discord.gg/tm6tPD' rel='noopener noreferrer' target='_blank'>Discord server</a>. Come hang out with us and play some games!</p>
 			</div>
 		</InnerContent>

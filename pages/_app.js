@@ -1,7 +1,9 @@
 // @flow
 
+import './_app.css';
 import App, {Container} from 'next/app';
 import {
+	faAward,
 	faComments,
 	faTrophy,
 	faUserFriends,
@@ -26,6 +28,7 @@ library.add(
 	faTwitter,
 	faYoutube,
 
+	faAward,
 	faComments,
 	faTrophy,
 	faUserFriends

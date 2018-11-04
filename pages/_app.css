@@ -16,6 +16,7 @@
 	--DARK-GRAY: #989899;
 	--GRAY: #C8C8C9;
 	--GREEN: #13D36A;
+	--ORANGE: #FF991B;
 	--RED: #E64B0E;
 	--YELLOW: #F0D70E;
 }
@@ -35,7 +36,7 @@
 :global a {
 	color: #FFF;
 	text-decoration: none;
-	transition: color 250ms ease;
+	transition: color 150ms ease;
 }
 
 :global a:focus,
@@ -45,4 +46,24 @@
 
 :global a:active {
 	color: var(--GREEN);
+}
+
+:global p {
+	color: var(--GRAY);
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 8px 0;
+}
+
+:global h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 32px;
+}
+
+:global h3 {
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 32px;
 }

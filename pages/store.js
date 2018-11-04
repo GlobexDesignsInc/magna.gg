@@ -4,14 +4,15 @@ import React, {type Element} from 'react';
 import {Helmet} from 'react-helmet';
 import InnerContent from '../components/InnerContent';
 import PageTemplate from '../containers/PageTemplate';
+import styles from './store.css';
 
 export const Store = (): Element<'div'> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Store | Magna eSports</title>
 		</Helmet>
-		<InnerContent>
-			Store
+		<InnerContent title='Store'>
+			<p>No items yet. Check back later.</p>
 		</InnerContent>
 	</PageTemplate>
 );

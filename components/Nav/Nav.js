@@ -16,8 +16,8 @@ export const Nav = ({
 		<Link href='/'>
 			<a className={styles.link}>Home</a>
 		</Link>
-		<Link href='/events'>
-			<a className={styles.link}>Events</a>
+		<Link href='/matches'>
+			<a className={styles.link}>Matches</a>
 		</Link>
 		<Link href='/teams'>
 			<a className={styles.link}>Teams</a>

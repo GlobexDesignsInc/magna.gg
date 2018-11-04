@@ -9,7 +9,7 @@
 }
 
 .video {
-	filter: blur(0.5rem) grayscale(80%);
+	filter: blur(0.5rem) grayscale(50%);
 	object-fit: cover;
 	opacity: 0.5;
 	width: 100%;

@@ -1,8 +1,5 @@
 // @flow
 
-// Temporarily here due to:
-// https://github.com/zeit/next-plugins/issues/149
-import './../../pages/_document.css';
 import React, {type Element, Fragment, memo, type Node} from 'react';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';

@@ -1,0 +1,21 @@
+.info {
+	margin-bottom: 32px;
+}
+
+.button {
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.buttonIcon {
+	margin-right: 16px;
+}
+
+.info2 {
+	margin-bottom: 32px;
+	margin-top: 32px;
+}
+
+.discordEmbed {
+	margin-bottom: 32px;
+}

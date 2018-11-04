@@ -16,30 +16,37 @@ export const Team = ({
 
 	return (
 		<div className={styles.main}>
-			<h2 className={styles.teamName}>{teamData.name}</h2>
+			<h2>{teamData.name}</h2>
 			<div className={styles.players}>
-				{teamData.players.map((t: TeamType): Element<'div'> => (
-					<div className={styles.player} key={t.name}>
-						<div className={styles.playerAvatar} />
-						<div className={styles.playerInfo}>
-							<div className={styles.playerHeader}>
-								<div className={styles.playerHeaderTitle}>
-									<h3 className={styles.playerName}>{t.name}</h3>
-									<div className={styles.playerRole}>{t.role}</div>
+				{teamData.players.map((p: TeamType): Element<'div'> => {
+					const id = p.name.toLowerCase();
+
+					return (
+						<div className={styles.player} key={id}>
+							<img
+								alt={p.name}
+								className={styles.playerAvatar}
+								src={`/static/avatars/discord-player-icon-${id}.png`} />
+							<div className={styles.playerInfo}>
+								<div className={styles.playerHeader}>
+									<div className={styles.playerHeaderTitle}>
+										<h3 className={styles.playerName}>{p.name}</h3>
+										<div className={styles.playerRole}>{p.role}</div>
+									</div>
+									<div className={styles.playerHeaderSocial}>
+										{p.twitch && (
+											<SocialButton
+												href={p.twitch}
+												icon='twitch'
+												title={`${p.name}'s Twitch`} />
+										)}
+									</div>
 								</div>
-								<div className={styles.playerHeaderSocial}>
-									{t.twitch && (
-										<SocialButton
-											href={t.twitch}
-											icon='twitch'
-											title={`${t.name}'s Twitch`} />
-									)}
-								</div>
+								<p>{p.bio}</p>
 							</div>
-							<p className={styles.playerBio}>{t.bio}</p>
 						</div>
-					</div>
-				))}
+					);
+				})}
 			</div>
 		</div>
 	);

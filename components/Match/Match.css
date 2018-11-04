@@ -1,0 +1,35 @@
+.main {
+	align-items: center;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	display: flex;
+	height: 128px;
+	margin: 32px 0;
+}
+
+.teamAvatar {
+	flex: 0 0 96px;
+	height: 96px;
+	margin: auto 16px;
+	width: 96px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+	justify-content: center;
+}
+
+.date {
+	color: var(--GRAY);
+	font-size: 16px;
+	font-weight: 100;
+	margin: 0 0 8px;
+}
+
+.event {
+	font-size: 22px;
+	font-weight: 300;
+	margin: 0;
+}

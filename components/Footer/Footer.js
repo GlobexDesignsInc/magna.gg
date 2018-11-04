@@ -17,8 +17,8 @@ export const Footer = (): Element<'div'> => (
 					<Link href='/'>
 						<a className={styles.link}>Home</a>
 					</Link>
-					<Link href='/events'>
-						<a className={styles.link}>Events</a>
+					<Link href='/matches'>
+						<a className={styles.link}>Matches</a>
 					</Link>
 					<Link href='/teams'>
 						<a className={styles.link}>Teams</a>
@@ -96,10 +96,8 @@ export const Footer = (): Element<'div'> => (
 				</div>
 			</div>
 			<Logo className={styles.logo} />
-			<div className={styles.copy}>
-				<p className={styles.copyP}>&copy; {new Date().getFullYear()} Magna eSports. All Rights Reserved. All product names, logos, and brands are property of their respective owners.</p>
-				<p className={styles.copyP}>Website by <a href='https://www.globexdesigns.com/' rel='noopener noreferrer' target='_blank'>Globex Designs, Inc.</a></p>
-			</div>
+			<p className={styles.copy}>&copy; {new Date().getFullYear()} Magna eSports. All Rights Reserved. All product names, logos, and brands are property of their respective owners.</p>
+			<p className={styles.copy}>Website by <a href='https://www.globexdesigns.com/' rel='noopener noreferrer' target='_blank'>Globex Designs, Inc.</a></p>
 		</InnerContent>
 	</div>
 );

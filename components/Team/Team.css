@@ -7,11 +7,6 @@
 	margin-top: 32px;
 }
 
-.teamName {
-	font-size: 32px;
-	font-weight: 200;
-}
-
 .players {
 	display: flex;
 	flex-wrap: wrap;
@@ -63,10 +58,4 @@
 	color: var(--GRAY);
 	font-style: italic;
 	font-size: 14px;
-}
-
-.playerBio {
-	font-size: 14px;
-	line-height: 24px;
-	margin: 8px 0;
 }

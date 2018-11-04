@@ -1,7 +1,5 @@
 // @flow
 
-// TODO: Blocked by https://github.com/zeit/next-plugins/issues/149
-// import './_document.css';
 import Document, {Head, Main, NextScript} from 'next/document';
 import React, {type Element} from 'react';
 import Helmet from 'react-helmet';
@@ -57,7 +55,7 @@ export default class MyDocument extends Document {
 						meta={DEFAULT_META}
 						title={SITE_NAME} />
 					{headElements}
-					<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' />
+					<link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' />
 					<link href='/static/favicon.ico' rel='icon' type='image/x-icon' />
 					<link href='/_next/static/style.css' rel='stylesheet' />
 				</Head>
