@@ -1,9 +1,12 @@
+:global html,
+:global body {
+	height: 100%;
+}
+
 :global body {
 	background: #09090B url(/static/bg.png) no-repeat center top;
 	background-size: cover;
 	color: #FFF;
-	display: flex;
-	height: 100%;
 	letter-spacing: 0.5px;
 	margin: 0;
 	padding: 0;
@@ -23,6 +26,9 @@
 }
 
 :global #__next {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 	width: 100%;
 }
 

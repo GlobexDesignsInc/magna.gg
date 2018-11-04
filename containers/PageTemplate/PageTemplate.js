@@ -6,6 +6,7 @@ import './../../pages/_document.css';
 import React, {type Element, Fragment, memo, type Node} from 'react';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import styles from './PageTemplate.css';
 
 type PropsType = {
 	children?: Node,
@@ -16,7 +17,9 @@ export const PageTemplate = ({
 }: PropsType): Element<typeof Fragment> => (
 	<Fragment>
 		<Header />
-		{children}
+		<div className={styles.content}>
+			{children}
+		</div>
 		<Footer />
 	</Fragment>
 );
