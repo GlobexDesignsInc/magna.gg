@@ -4,6 +4,8 @@ import Document, {Head, Main, NextScript} from 'next/document';
 import React, {type Element} from 'react';
 import Helmet from 'react-helmet';
 
+type PropsType = {};
+
 const SITE_AUTHOR = 'Ev Haus';
 const SITE_NAME = 'Magna eSports: Semi-pro Overwatch organization';
 const SITE_DESC = 'Magna eSports is a Tier 2 Overwatch organization with two teams (Ignis & Ventus) competing in the Open Division, OTC, WarpMeta and other tournaments & leagues.';
