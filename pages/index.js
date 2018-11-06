@@ -14,12 +14,22 @@ const _handleMeetClick = function () {
 	Router.push('/teams');
 };
 
+const getRandomVideo = function (): string {
+	const items = [
+		'/static/videos/eskimo01.mp4',
+		'/static/videos/eskimo02.mp4',
+		'/static/videos/verious01.mp4',
+	];
+
+	return items[Math.floor(Math.random() * items.length)];
+};
+
 export const Home = (): Element<'div'> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Magna eSports: Semi-pro Overwatch organization</title>
 		</Helmet>
-		<VideoTeaser src='/static/videos/eskimo01.mp4'>
+		<VideoTeaser src={getRandomVideo()}>
 			<div className={styles.teaserCenter}>
 				<h1 className={styles.h1}>
 					Welcome to <strong className={styles.h1strong}>Magna eSports</strong>

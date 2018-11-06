@@ -1,6 +1,6 @@
 {
 	"name": "magna.gg",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"license": "MIT",
 	"scripts": {
 		"build": "next build",
@@ -20,7 +20,7 @@
 		"@zeit/next-css": "1.0.1",
 		"classnames": "2.2.6",
 		"express": "4.16.4",
-		"greenlock-express": "2.4.6",
+		"greenlock-express": "2.4.9",
 		"next": "7.0.2",
 		"react": "16.7.0-alpha.0",
 		"react-dom": "16.7.0-alpha.0",

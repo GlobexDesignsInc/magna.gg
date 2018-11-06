@@ -1,6 +1,7 @@
 // @flow
 
 import './_app.css';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import App, {Container} from 'next/app';
 import {
 	faAward,

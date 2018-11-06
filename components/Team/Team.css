@@ -46,6 +46,8 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin-right: 16px;
+	text-align: justify;
 }
 
 .playerName {
