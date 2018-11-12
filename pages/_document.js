@@ -7,7 +7,7 @@ import Helmet from 'react-helmet';
 
 const SITE_AUTHOR = 'Ev Haus';
 const SITE_NAME = 'Magna eSports: Semi-pro Overwatch organization';
-const SITE_DESC = 'Magna eSports is a Tier 2 Overwatch organization with two teams (Ignis & Ventus) competing in the Open Division, OTC, WarpMeta and other tournaments & leagues.';
+const SITE_DESC = 'Magna eSports is a Tier 3 Overwatch organization with two teams (Ignis & Ventus) competing in the Open Division, OTC, WarpMeta and other tournaments & leagues.';
 const TWITTER_USER = '@MagnaEsportsOW';
 
 const DEFAULT_META = [
