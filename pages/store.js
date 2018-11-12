@@ -11,7 +11,7 @@ export const Store = (): Element<'div'> => (
 		<Helmet>
 			<title>Store | Magna eSports</title>
 		</Helmet>
-		<InnerContent title='Store'>
+		<InnerContent title='Store' withPadding={true}>
 			<p>No items yet. Check back later.</p>
 		</InnerContent>
 	</PageTemplate>

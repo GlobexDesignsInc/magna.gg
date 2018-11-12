@@ -9,7 +9,7 @@ import styles from './Header.css';
 export const Header = (): Element<'div'> => (
 	<div className={styles.main}>
 		<div className={styles.inner}>
-			<Logo />
+			<Logo className={styles.logo} />
 			<Nav className={styles.nav} />
 			<SocialBar className={styles.socialBar} />
 		</div>

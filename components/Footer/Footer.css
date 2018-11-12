@@ -41,3 +41,25 @@
 	margin: 0;
 	text-align: right;
 }
+
+/* Mobile */
+@media screen and (max-width: 1280px) {
+	.sections {
+		flex-direction: column;
+	}
+
+	.section {
+		flex: 1 1 auto;
+		text-align: center;
+	}
+
+	.logo {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.copy {
+		padding: 0 16px;
+		text-align: center;
+	}
+}

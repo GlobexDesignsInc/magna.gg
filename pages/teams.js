@@ -11,7 +11,7 @@ export const Teams = (): Element<'div'> => (
 		<Helmet>
 			<title>Teams | Magna eSports</title>
 		</Helmet>
-		<InnerContent>
+		<InnerContent withPadding={true}>
 			<Team team='ignis' />
 			<Team team='ventus' />
 		</InnerContent>

@@ -61,3 +61,15 @@
 	font-style: italic;
 	font-size: 14px;
 }
+
+/* Mobile */
+@media screen and (max-width: 1280px) {
+	.players {
+		flex-direction: column;
+		flex-wrap: initial;
+	}
+
+	.player {
+		width: auto;
+	}
+}

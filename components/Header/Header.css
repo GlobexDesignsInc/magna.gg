@@ -20,3 +20,24 @@
 .socialBar {
 	margin: auto 0 auto auto;
 }
+
+/* Mobile */
+@media screen and (max-width: 1280px) {
+	.main {
+		flex: 0 0 auto;
+		height: auto;
+	}
+
+	.inner {
+		flex-direction: column;
+	}
+
+	.logo {
+		margin-bottom: 16px;
+		margin-top: 8px;
+	}
+
+	.socialBar {
+		margin: 16px auto 8px;
+	}
+}

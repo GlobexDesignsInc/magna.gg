@@ -12,7 +12,7 @@ export const Contact = (): Element<'div'> => (
 		<Helmet>
 			<title>Contact | Magna eSports</title>
 		</Helmet>
-		<InnerContent title='Contact'>
+		<InnerContent title='Contact' withPadding={true}>
 			<p className={styles.info}>The best way to get in touch with us is via one of our social media accounts:</p>
 			<a
 				className={styles.button}

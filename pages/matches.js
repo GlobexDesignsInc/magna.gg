@@ -11,15 +11,17 @@ export const Events = (): Element<'div'> => (
 		<Helmet>
 			<title>Matches | Magna eSports</title>
 		</Helmet>
-		<InnerContent title='Matches'>
+		<InnerContent title='Matches' withPadding={true}>
 			<h3>Upcoming</h3>
+
+			<p>No upcoming matches</p>
+
+			<h3>Past</h3>
 
 			<Match
 				date='Nov 10-11, 2018'
 				event='Fusion Overwatch Showcase in Philadelphia'
 				team='magna' />
-
-			<h3>Past</h3>
 
 			<Match
 				date='Oct 27, 2018'
