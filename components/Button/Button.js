@@ -14,7 +14,7 @@ export const Button = ({
 	children,
 	className,
 	onClick,
-}: PropsType): Element<'div'> => (
+}: PropsType): Element<'button'> => (
 	<button
 		className={classnames(styles.main, className)}
 		onClick={onClick}>

@@ -1,7 +1,7 @@
 // @flow
 /* eslint-disable jsx-a11y/anchor-is-valid, jsx-a11y/anchor-has-content */
 
-import React, {memo} from 'react';
+import React, {type Element, memo} from 'react';
 import classnames from 'classnames';
 import Link from 'next/link';
 import styles from './Logo.css';
