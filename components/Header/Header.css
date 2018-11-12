@@ -30,6 +30,12 @@
 
 	.inner {
 		flex-direction: column;
+		padding: 0;
+		width: auto;
+	}
+
+	.nav {
+		margin: 0 auto;
 	}
 
 	.logo {
