@@ -1,6 +1,6 @@
 // @flow
 
-import React, {memo} from 'react';
+import React, {type Element, memo} from 'react';
 import Logo from '../Logo';
 import Nav from '../Nav';
 import SocialBar from '../SocialBar';

@@ -1,7 +1,7 @@
 // @flow
 /* eslint-disable jsx-a11y/media-has-caption */
 
-import React, {memo, type Node} from 'react';
+import React, {type Element, memo, type Node} from 'react';
 import InnerContent from '../InnerContent';
 import styles from './VideoTeaser.css';
 

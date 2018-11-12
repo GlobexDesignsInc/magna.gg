@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import {type PlayerType, TEAMS} from '../../config';
-import React, {memo} from 'react';
+import React, {type Element, memo} from 'react';
 import InnerContent from '../InnerContent';
 import Link from 'next/link';
 import Logo from '../Logo';

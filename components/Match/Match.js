@@ -1,6 +1,6 @@
 // @flow
 
-import React, {memo} from 'react';
+import React, {type Element, memo} from 'react';
 import MatchPlace from '../MatchPlace';
 import styles from './Match.css';
 

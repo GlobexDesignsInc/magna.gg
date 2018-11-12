@@ -2,9 +2,8 @@
 
 import Document, {Head, Main, NextScript} from 'next/document';
 import React, {type Element} from 'react';
+import {type Context} from 'next';
 import Helmet from 'react-helmet';
-
-type PropsType = {};
 
 const SITE_AUTHOR = 'Ev Haus';
 const SITE_NAME = 'Magna eSports: Semi-pro Overwatch organization';
@@ -36,7 +35,7 @@ const DEFAULT_META = [
 ];
 
 export default class MyDocument extends Document {
-	static async getInitialProps (...args: PropsType): {} {
+	static async getInitialProps (...args: Context): Promise<any> {
 		const documentProps = await super.getInitialProps(...args);
 		return {...documentProps, helmet: Helmet.renderStatic()};
 	}

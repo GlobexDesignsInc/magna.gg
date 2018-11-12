@@ -1,7 +1,7 @@
 // @flow
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import React, {memo} from 'react';
+import React, {type Element, memo} from 'react';
 import Link from 'next/link';
 import styles from './Nav.css';
 
@@ -11,7 +11,7 @@ type PropsType = {
 
 export const Nav = ({
 	className,
-}: PropsType): Element<'div'> => (
+}: PropsType): Element<'nav'> => (
 	<nav className={className}>
 		<Link href='/'>
 			<a className={styles.link}>Home</a>

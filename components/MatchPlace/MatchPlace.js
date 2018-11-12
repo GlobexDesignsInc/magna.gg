@@ -1,6 +1,6 @@
 // @flow
 
-import React, {memo} from 'react';
+import React, {type Element, memo} from 'react';
 import classnames from 'classnames';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import styles from './MatchPlace.css';
