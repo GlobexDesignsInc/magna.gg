@@ -1,7 +1,7 @@
 // @flow
 
+import {type PlayerType, TEAMS} from '../../config';
 import React, {memo} from 'react';
-import {TEAMS, type TeamType} from '../../config';
 import SocialButton from '../SocialButton';
 import styles from './Team.css';
 
@@ -18,7 +18,7 @@ export const Team = ({
 		<div className={styles.main}>
 			<h2>{teamData.name}</h2>
 			<div className={styles.players}>
-				{teamData.players.map((p: TeamType): Element<'div'> => {
+				{teamData.players.map((p: PlayerType): Element<'div'> => {
 					const id = p.name.toLowerCase();
 
 					return (
@@ -36,7 +36,7 @@ export const Team = ({
 									<div className={styles.playerHeaderSocial}>
 										{p.twitch && (
 											<SocialButton
-												href={p.twitch}
+												href={`https://www.twitch.tv/${p.twitch}`}
 												icon='twitch'
 												title={`${p.name}'s Twitch`} />
 										)}

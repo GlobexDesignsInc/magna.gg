@@ -18,6 +18,7 @@ const getRandomVideo = function (): string {
 	const items = [
 		'/static/videos/eskimo01.mp4',
 		'/static/videos/eskimo02.mp4',
+		'/static/videos/pyro01.webm',
 		'/static/videos/verious01.mp4',
 	];
 

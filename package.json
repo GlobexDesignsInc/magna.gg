@@ -1,6 +1,6 @@
 {
 	"name": "magna.gg",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"license": "MIT",
 	"scripts": {
 		"build": "next build",
@@ -31,7 +31,7 @@
 		"@babel/preset-flow": "7.0.0",
 		"@globexdesigns/deploy": "0.2.5",
 		"eslint-config-cumul8": "8.0.0",
-		"flow-bin": "0.85.0",
+		"flow-bin": "0.86.0",
 		"flow-typed": "2.5.1"
 	}
 }
