@@ -68,7 +68,7 @@ export const Home = (): Element<'div'> => (
 					icon='comments'
 					size='3x' />
 				<h3>Social</h3>
-				<p className={styles.tripleBoxP}>We hold weekly social community events & games on our <a href='https://discord.gg/tm6tPD' rel='noopener noreferrer' target='_blank'>Discord server</a>. Come hang out with us and play some games!</p>
+				<p className={styles.tripleBoxP}>We hold weekly social community events & games on our <a href='https://discord.gg/MZvzKUa' rel='noopener noreferrer' target='_blank'>Discord server</a>. Come hang out with us and play some games!</p>
 			</div>
 		</InnerContent>
 	</PageTemplate>

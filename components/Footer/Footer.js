@@ -88,7 +88,7 @@ export const Footer = (): Element<'div'> => (
 					</a>
 					<a
 						className={styles.link}
-						href='https://discord.gg/tm6tPD'
+						href='https://discord.gg/MZvzKUa'
 						rel='noopener noreferrer'
 						target='_blank'>
 						Discord
