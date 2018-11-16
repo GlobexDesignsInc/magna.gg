@@ -1,3 +1,12 @@
+.content {
+	display: flex;
+}
+
+.left,
+.right {
+	flex: 1 1 50%;
+}
+
 .info {
 	margin-bottom: 32px;
 }
@@ -18,4 +27,11 @@
 
 .discordEmbed {
 	margin-bottom: 32px;
+}
+
+.img {
+	border: 8px solid var(--BLUE);
+	height: 340px;
+	margin: 16px;
+	width: 512px;
 }
