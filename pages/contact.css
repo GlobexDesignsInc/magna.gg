@@ -35,3 +35,17 @@
 	margin: 16px;
 	width: 512px;
 }
+
+/* Mobile */
+@media screen and (max-width: 1280px) {
+	.content {
+		flex-direction: column
+	}
+
+	.right { text-align: center }
+
+	.img {
+		height: auto;
+		width: 80%;
+	}
+}
