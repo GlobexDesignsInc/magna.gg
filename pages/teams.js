@@ -13,6 +13,7 @@ export const Teams = (): Element<'div'> => (
 		</Helmet>
 		<InnerContent withPadding={true}>
 			<Team team='ignis' />
+			<Team team='terra' />
 			<Team team='ventus' />
 		</InnerContent>
 	</PageTemplate>

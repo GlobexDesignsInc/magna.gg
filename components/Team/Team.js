@@ -6,7 +6,7 @@ import SocialButton from '../SocialButton';
 import styles from './Team.css';
 
 type PropsType = {
-	team: 'ignis' | 'ventus',
+	team: 'ignis' | 'terra' | 'ventus',
 };
 
 export const Team = ({
@@ -39,6 +39,12 @@ export const Team = ({
 												href={`https://www.twitch.tv/${p.twitch}`}
 												icon='twitch'
 												title={`${p.name}'s Twitch`} />
+										)}
+										{p.twitter && (
+											<SocialButton
+												href={`https://www.twitter.com/${p.twitter}`}
+												icon='twitter'
+												title={`${p.name}'s Twitter`} />
 										)}
 									</div>
 								</div>

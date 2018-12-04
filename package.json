@@ -24,14 +24,14 @@
 		"next": "7.0.2",
 		"react": "16.7.0-alpha.2",
 		"react-dom": "16.7.0-alpha.2",
-		"react-ga": "2.5.3",
+		"react-ga": "2.5.6",
 		"react-helmet": "5.2.0"
 	},
 	"devDependencies": {
 		"@babel/preset-flow": "7.0.0",
 		"@globexdesigns/deploy": "0.2.5",
 		"eslint-config-cumul8": "8.0.0",
-		"flow-bin": "0.86.0",
+		"flow-bin": "0.87.0",
 		"flow-typed": "2.5.1"
 	}
 }

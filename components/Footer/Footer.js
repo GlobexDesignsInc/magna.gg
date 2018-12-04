@@ -44,6 +44,19 @@ export const Footer = (): Element<'div'> => (
 					))}
 				</div>
 				<div className={styles.section}>
+					<h5 className={styles.sectionTitle}>Team Terra</h5>
+					{TEAMS.terra.players.map((player: PlayerType): Element<'a'> => (
+						<a
+							className={styles.link}
+							href={player.twitch ? `https://twitch.tv/${player.twitch}` : '#'}
+							key={player.name}
+							rel='noopener noreferrer'
+							target='_blank'>
+							{player.name}
+						</a>
+					))}
+				</div>
+				<div className={styles.section}>
 					<h5 className={styles.sectionTitle}>Team Ventus</h5>
 					{TEAMS.ventus.players.map((player: PlayerType): Element<'a'> => (
 						<a

@@ -33,14 +33,39 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Verious',
 			role: 'Off-Support',
 		}, {
-			name: 'Berry',
-			role: 'Main Tank',
-			twitch: 'DanitraxTW',
-		}, {
 			bio: `Hey, I’m Sululu. I am the worst DPS there is. I stream at on Twitch so come and gib me your monies.`,
 			name: 'Sululu',
 			role: 'DPS',
 			twitch: 'sululuxd',
+		}],
+	},
+	terra: {
+		name: 'Magna Terra',
+		players: [{
+			name: 'Eglea',
+			role: 'Main Tank',
+			twitch: 'mico_ot',
+			twitter: 'EgleaFlame',
+		}, {
+			name: 'Redbird',
+			role: 'Flex Tank',
+			twitch: 'flyingredbird',
+			twitter: 'Redbird_OW',
+		}, {
+			name: 'MAVY',
+			role: 'Hitscan DPS',
+		}, {
+			name: 'Inukshuk',
+			role: 'Flex DPS',
+			twitch: 'mudory',
+			twitter: 'mudoryow',
+		}, {
+			name: 'Kittyking',
+			role: 'Flex Support',
+		}, {
+			name: 'Ironcrit',
+			role: 'Main Support',
+			twitch: 'ironcritow',
 		}],
 	},
 	ventus: {
