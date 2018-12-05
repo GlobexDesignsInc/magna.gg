@@ -1,6 +1,6 @@
 // @flow
 
-type TeamIdType = 'ignis' | 'ventus';
+type TeamIdType = 'ignis' | 'terra' | 'ventus';
 
 export type PlayerType = {
 	bio?: string,
@@ -32,11 +32,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			bio: `Hello, I'm Devin for the team Magna Ignis but you can just call me Verious. I'm a flex support who's main characters are Zenyatta and Ana. I pride myself on my mechanics and knowledge of the game since I started playing in late August 2016. I'm a new member to Ignis and plan to really get to know my team and truly become a part of it.`,
 			name: 'Verious',
 			role: 'Off-Support',
-		}, {
-			bio: `Hey, I’m Sululu. I am the worst DPS there is. I stream at on Twitch so come and gib me your monies.`,
-			name: 'Sululu',
-			role: 'DPS',
-			twitch: 'sululuxd',
 		}],
 	},
 	terra: {
