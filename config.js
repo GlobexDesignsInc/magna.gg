@@ -37,6 +37,7 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 	terra: {
 		name: 'Magna Terra',
 		players: [{
+			bio: `Hello, My name is EgleaFlame and I am 18 years old and i play Main Tank for Magna Terra. I am a previous console but have recently fully moved to PC during S13, my console peak has been 4703 and I have been rank 1 there for about 4 seasons in a row while solo queing to rank 1 on a smurf and stacking on another account to rank 1. I used to play on a console team for about a year and a half as their IGL and target caller. I have only won one tourney on console, but i strive to win as many tourneys on pc. My goal is to grind OW to reach OWL and be one of the, if not the best Main Tank, i also want to represent my fellow console players and inspire some of them to strive for greatness! Fun fact I am also married to @MrsEgleaFlame on twitter!`,
 			name: 'Eglea',
 			role: 'Main Tank',
 			twitch: 'mico_ot',
@@ -55,9 +56,11 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			twitch: 'mudory',
 			twitter: 'mudoryow',
 		}, {
+			bio: `Yo, it's KittyKing, I play flex support for Magna Terra. I play every support but lucio and like to feed. I'm 17 and want to make it into OWL. Willing to grind as hard as necessary to get there. Oh, I also pop off.`,
 			name: 'Kittyking',
 			role: 'Flex Support',
 		}, {
+			bio: `I've been playing Overwatch competitively since Open Division 2018 season one. I've scratched top 500 multiple times but I haven't sat in it properly. I'll be playing main support for Terra, and I currently flex for JMU's Tespa team, peaking top 10 in the preseason. Before Overwatch I played TF2 at its lowest competitive level. I'll be streaming as often as possible, but it's hard as a college student on 2 competitive teams.`,
 			name: 'Ironcrit',
 			role: 'Main Support',
 			twitch: 'ironcritow',
