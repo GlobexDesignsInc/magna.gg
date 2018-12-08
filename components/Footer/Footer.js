@@ -101,6 +101,13 @@ export const Footer = (): Element<'div'> => (
 					</a>
 					<a
 						className={styles.link}
+						href='https://www.patreon.com/magnaesports'
+						rel='noopener noreferrer'
+						target='_blank'>
+						Patreon
+					</a>
+					<a
+						className={styles.link}
 						href='https://discord.gg/MZvzKUa'
 						rel='noopener noreferrer'
 						target='_blank'>
