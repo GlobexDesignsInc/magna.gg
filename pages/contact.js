@@ -8,7 +8,7 @@ import InnerContent from '../components/InnerContent';
 import PageTemplate from '../containers/PageTemplate';
 import styles from './contact.css';
 
-export const Contact = (): Element<'div'> => (
+export const Contact = (): Element<typeof PageTemplate> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Contact | Magna eSports</title>

@@ -6,7 +6,7 @@ import InnerContent from '../components/InnerContent';
 import PageTemplate from '../containers/PageTemplate';
 import styles from './store.css';
 
-export const Store = (): Element<'div'> => (
+export const Store = (): Element<typeof PageTemplate> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Store | Magna eSports</title>

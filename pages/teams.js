@@ -6,7 +6,7 @@ import InnerContent from '../components/InnerContent';
 import PageTemplate from '../containers/PageTemplate';
 import Team from '../components/Team';
 
-export const Teams = (): Element<'div'> => (
+export const Teams = (): Element<typeof PageTemplate> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Teams | Magna eSports</title>

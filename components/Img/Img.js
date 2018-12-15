@@ -3,6 +3,8 @@
 import React, {type Element, memo} from 'react';
 
 type PropsType = {
+	alt?: ?string,
+	className?: ?string,
 	src: string,
 };
 

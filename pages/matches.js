@@ -6,7 +6,7 @@ import InnerContent from '../components/InnerContent';
 import Match from '../components/Match';
 import PageTemplate from '../containers/PageTemplate';
 
-export const Events = (): Element<'div'> => (
+export const Events = (): Element<typeof PageTemplate> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Matches | Magna eSports</title>

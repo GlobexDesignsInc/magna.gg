@@ -25,7 +25,7 @@ const getRandomVideo = function (): string {
 	return items[Math.floor(Math.random() * items.length)];
 };
 
-export const Home = (): Element<'div'> => (
+export const Home = (): Element<typeof PageTemplate> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Magna eSports: Semi-pro Overwatch organization</title>
