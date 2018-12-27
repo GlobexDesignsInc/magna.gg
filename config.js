@@ -43,6 +43,7 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Snoopy',
 			role: 'Flex DPS',
 			twitch: 'ow_snoopy',
+			twitter: 'HaruOverwatch',
 		}],
 	},
 	terra: {

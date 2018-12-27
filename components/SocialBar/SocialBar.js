@@ -27,6 +27,10 @@ export const SocialBar = ({
 			href='https://youtube.com/channel/UCMCIC0HpGgTmyqLvrAlg4IA'
 			icon='youtube'
 			title='Magna eSports YouTube' />
+		<SocialButton
+			href='https://twitch.tv/MagnaOrg'
+			icon='twitch'
+			title='Magna eSports Twitch' />
 	</div>
 );
 
