@@ -36,6 +36,13 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'gnja2012',
 			role: 'Main Tank',
+		}, {
+			name: 'Pastel',
+			role: 'Main Support',
+		}, {
+			name: 'Snoopy',
+			role: 'Flex DPS',
+			twitch: 'ow_snoopy',
 		}],
 	},
 	terra: {
@@ -75,6 +82,7 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		players: [{
 			name: 'Bladez',
 			role: 'DPS',
+			twitch: 'exiledbladez',
 		}, {
 			name: 'garmmz',
 			role: 'Main Tank',

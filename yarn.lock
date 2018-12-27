@@ -3513,10 +3513,10 @@ graceful-fs@^4.1.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4,
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
   integrity sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
 
-greenlock-express@2.6.4:
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/greenlock-express/-/greenlock-express-2.6.4.tgz#286a2dacbd2845af5d27d43d3635ddbf4536fba5"
-  integrity sha512-YY42gPZ/cqJsY1taujSD9OfFpVUPcgUN2mbg0XyFrqWoxfnLHSxLT06B2JM+uA6pRaBDx2BRUshqKvIqgfM7TQ==
+greenlock-express@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/greenlock-express/-/greenlock-express-2.6.7.tgz#05716dc21ce20655e4901022a4c6cac29d0b6fcd"
+  integrity sha512-awt+z/gSSLYGCSHjRFuHh3yFQDtIoQCT1k9eE5q8wQfMSy34BwDcCj2P39aLPTNtAVY1tbIJI+Fpg6+jes/f/A==
   dependencies:
     greenlock "^2.6.7"
     le-challenge-fs "^2.0.8"
