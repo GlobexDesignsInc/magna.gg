@@ -30,10 +30,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Off-Tank',
 			twitch: 'pyrothetank',
 		}, {
-			bio: `Hello, I'm Devin for the team Magna Ignis but you can just call me Verious. I'm a flex support who's main characters are Zenyatta and Ana. I pride myself on my mechanics and knowledge of the game since I started playing in late August 2016. I'm a new member to Ignis and plan to really get to know my team and truly become a part of it.`,
-			name: 'Verious',
-			role: 'Off-Support',
-		}, {
 			name: 'gnja2012',
 			role: 'Main Tank',
 		}, {
