@@ -36,11 +36,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Pastel',
 			role: 'Main Support',
 		}, {
-			name: 'Snoopy',
-			role: 'Flex DPS',
-			twitch: 'ow_snoopy',
-			twitter: 'HaruOverwatch',
-		}, {
 			name: 'Rion',
 			role: 'Flex Support',
 		}],
