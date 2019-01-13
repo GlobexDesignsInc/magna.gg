@@ -62,10 +62,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			twitch: 'mudory',
 			twitter: 'mudoryow',
 		}, {
-			bio: `Yo, it's KittyKing, I play flex support for Magna Terra. I play every support but lucio and like to feed. I'm 17 and want to make it into OWL. Willing to grind as hard as necessary to get there. Oh, I also pop off.`,
-			name: 'Kittyking',
-			role: 'Flex Support',
-		}, {
 			bio: `I've been playing Overwatch competitively since Open Division 2018 season one. I've scratched top 500 multiple times but I haven't sat in it properly. I'll be playing main support for Terra, and I currently flex for JMU's Tespa team, peaking top 10 in the preseason. Before Overwatch I played TF2 at its lowest competitive level. I'll be streaming as often as possible, but it's hard as a college student on 2 competitive teams.`,
 			name: 'Ironcrit',
 			role: 'Main Support',
