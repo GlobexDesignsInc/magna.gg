@@ -38,6 +38,9 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'Rion',
 			role: 'Flex Support',
+		}, {
+			name: 'Ally',
+			role: 'Flex DPS',
 		}],
 	},
 	terra: {
