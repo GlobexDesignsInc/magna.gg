@@ -52,19 +52,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			twitch: 'mico_ot',
 			twitter: 'EgleaFlame',
 		}, {
-			name: 'Redbird',
-			role: 'Flex Tank',
-			twitch: 'flyingredbird',
-			twitter: 'Redbird_OW',
-		}, {
-			name: 'MAVY',
-			role: 'Hitscan DPS',
-		}, {
-			name: 'Inukshuk',
-			role: 'Flex DPS',
-			twitch: 'mudory',
-			twitter: 'mudoryow',
-		}, {
 			bio: `I've been playing Overwatch competitively since Open Division 2018 season one. I've scratched top 500 multiple times but I haven't sat in it properly. I'll be playing main support for Terra, and I currently flex for JMU's Tespa team, peaking top 10 in the preseason. Before Overwatch I played TF2 at its lowest competitive level. I'll be streaming as often as possible, but it's hard as a college student on 2 competitive teams.`,
 			name: 'Ironcrit',
 			role: 'Main Support',
