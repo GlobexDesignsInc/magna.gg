@@ -61,14 +61,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 	ventus: {
 		name: 'Magna Ventus',
 		players: [{
-			name: 'Bladez',
-			role: 'DPS',
-			twitch: 'exiledbladez',
-		}, {
-			name: 'garmmz',
-			role: 'Main Tank',
-			twitch: 'garmmz',
-		}, {
 			bio: `Hey, I'm Eski, I am a peak 4250 Off Support. I started into to the eSports scene by playing Halo, Left4Dead, and Team Fotress 2. Outside of the scene I have a Bachelors of Fine Arts in Game and Simulation Design and work with other professionals to try and get eSports more accesessable to kids starting in middle school and finishing in college, As well as being the varsity and junior varisty coach of the Shawnee State Bear's Overwatch team. I'm making it to OWL level of play so let's get this bread!`,
 			name: 'Eski',
 			role: 'Support',
