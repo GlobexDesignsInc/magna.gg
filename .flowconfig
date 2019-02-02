@@ -1,7 +1,9 @@
 [include]
 
 components
+containers
 pages
+utils
 
 [lints]
 
