@@ -1,6 +1,6 @@
 {
 	"name": "magna.gg",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"license": "MIT",
 	"scripts": {
 		"build": "next build",
@@ -13,9 +13,9 @@
 		"test": "yarn flow && yarn eslint"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "1.2.12",
-		"@fortawesome/free-brands-svg-icons": "5.6.3",
-		"@fortawesome/free-solid-svg-icons": "5.6.3",
+		"@fortawesome/fontawesome-svg-core": "1.2.14",
+		"@fortawesome/free-brands-svg-icons": "5.7.1",
+		"@fortawesome/free-solid-svg-icons": "5.7.1",
 		"@fortawesome/react-fontawesome": "0.1.4",
 		"@zeit/next-css": "1.0.1",
 		"classnames": "2.2.6",
@@ -24,14 +24,14 @@
 		"next": "7.0.2",
 		"react": "16.8.0-alpha.0",
 		"react-dom": "16.8.0-alpha.0",
-		"react-ga": "2.5.6",
+		"react-ga": "2.5.7",
 		"react-helmet": "5.2.0"
 	},
 	"devDependencies": {
 		"@babel/preset-flow": "7.0.0",
 		"@globexdesigns/deploy": "0.2.5",
 		"eslint-config-cumul8": "8.0.0",
-		"flow-bin": "0.91.0",
+		"flow-bin": "0.92.1",
 		"flow-typed": "2.5.1"
 	}
 }

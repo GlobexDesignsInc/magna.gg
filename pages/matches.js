@@ -6,7 +6,7 @@ import InnerContent from '../components/InnerContent';
 import Match from '../components/Match';
 import PageTemplate from '../containers/PageTemplate';
 
-export const Events = (): Element<typeof PageTemplate> => (
+export const Matches = (): Element<typeof PageTemplate> => (
 	<PageTemplate>
 		<Helmet>
 			<title>Matches | Magna eSports</title>
@@ -32,6 +32,6 @@ export const Events = (): Element<typeof PageTemplate> => (
 	</PageTemplate>
 );
 
-Events.displayName = 'Events';
+Matches.displayName = 'Matches';
 
-export default Events;
+export default Matches;

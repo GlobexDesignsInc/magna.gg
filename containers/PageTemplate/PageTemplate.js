@@ -23,4 +23,4 @@ export const PageTemplate = ({
 
 PageTemplate.displayName = 'PageTemplate';
 
-export default memo(PageTemplate);
+export default memo<PropsType>(PageTemplate);

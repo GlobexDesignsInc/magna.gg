@@ -31,4 +31,4 @@ export const InnerContent = ({
 
 InnerContent.displayName = 'InnerContent';
 
-export default memo(InnerContent);
+export default memo<PropsType>(InnerContent);

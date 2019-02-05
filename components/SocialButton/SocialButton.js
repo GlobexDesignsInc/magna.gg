@@ -34,4 +34,4 @@ export const SocialButton = ({
 
 SocialButton.displayName = 'SocialButton';
 
-export default memo(SocialButton);
+export default memo<PropsType>(SocialButton);

@@ -49,6 +49,8 @@ export default class MyApp extends App {
 	componentDidMount () {
 		initGA();
 		logPageView();
+
+		// flow-disable-next-line
 		Router.router.events.on('routeChangeComplete', logPageView);
 	}
 

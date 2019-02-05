@@ -124,4 +124,4 @@ export const Footer = (): Element<'div'> => (
 
 Footer.displayName = 'Footer';
 
-export default memo(Footer);
+export default memo<{}>(Footer);

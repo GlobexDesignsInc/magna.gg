@@ -60,4 +60,4 @@ export const Team = ({
 
 Team.displayName = 'Team';
 
-export default memo(Team);
+export default memo<PropsType>(Team);

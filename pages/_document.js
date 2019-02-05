@@ -34,6 +34,7 @@ const DEFAULT_META = [
 	{content: SITE_NAME, property: 'twitter:title'},
 ];
 
+// flow-disable-next-line
 export default class MyDocument extends Document {
 	static async getInitialProps (...args: Context): Promise<any> {
 		const documentProps = await super.getInitialProps(...args);

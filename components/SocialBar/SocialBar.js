@@ -36,4 +36,4 @@ export const SocialBar = ({
 
 SocialBar.displayName = 'SocialBar';
 
-export default memo(SocialBar);
+export default memo<PropsType>(SocialBar);

@@ -30,9 +30,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Off-Tank',
 			twitch: 'pyrothetank',
 		}, {
-			name: 'gnja2012',
-			role: 'Main Tank',
-		}, {
 			name: 'Pastel',
 			role: 'Main Support',
 		}, {
@@ -41,6 +38,11 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'Ally',
 			role: 'Flex DPS',
+		}, {
+			name: 'Savvy',
+			role: 'Main Tank',
+			twitch: 'savvy_ow',
+			twitter: 'Savvy_OW'
 		}],
 	},
 	terra: {

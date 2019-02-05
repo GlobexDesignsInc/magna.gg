@@ -33,4 +33,4 @@ export const Nav = ({
 
 Nav.displayName = 'Nav';
 
-export default memo(Nav);
+export default memo<PropsType>(Nav);

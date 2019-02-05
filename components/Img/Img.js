@@ -23,4 +23,4 @@ export const Img = ({
 
 Img.displayName = 'Img';
 
-export default memo(Img);
+export default memo<PropsType>(Img);

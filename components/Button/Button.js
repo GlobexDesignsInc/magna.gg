@@ -24,4 +24,4 @@ export const Button = ({
 
 Button.displayName = 'Button';
 
-export default memo(Button);
+export default memo<PropsType>(Button);

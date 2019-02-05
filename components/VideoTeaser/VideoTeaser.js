@@ -34,4 +34,4 @@ export const VideoTeaser = ({
 
 VideoTeaser.displayName = 'VideoTeaser';
 
-export default memo(VideoTeaser);
+export default memo<PropsType>(VideoTeaser);
