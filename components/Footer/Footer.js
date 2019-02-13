@@ -33,7 +33,9 @@ export const Footer = (): Element<'div'> => (
 				{['ignis', 'terra', 'ventus'].map((team: string): ?Element<'div'> => (
 					TEAMS[team].players.length ? (
 						<div className={styles.section}>
-							<h5 className={styles.sectionTitle}>Team Ignis</h5>
+							<h5 className={styles.sectionTitle}>
+								{TEAMS[team].name}
+							</h5>
 							{TEAMS[team].players.map((player: PlayerType): Element<'a'> => (
 								<a
 									className={styles.link}

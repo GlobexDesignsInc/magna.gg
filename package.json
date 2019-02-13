@@ -21,6 +21,7 @@
 		"classnames": "2.2.6",
 		"express": "4.16.4",
 		"greenlock-express": "2.6.7",
+		"ordinal": "1.0.2",
 		"next": "8.0.0",
 		"react": "16.8.1",
 		"react-dom": "16.8.1",
