@@ -13,19 +13,19 @@ export const Nav = ({
 	className,
 }: PropsType): Element<'nav'> => (
 	<nav className={className}>
-		<Link href='/'>
+		<Link href='/' prefetch={true}>
 			<a className={styles.link}>Home</a>
 		</Link>
-		<Link href='/matches'>
+		<Link href='/matches' prefetch={true}>
 			<a className={styles.link}>Matches</a>
 		</Link>
-		<Link href='/teams'>
+		<Link href='/teams' prefetch={true}>
 			<a className={styles.link}>Teams</a>
 		</Link>
-		<Link href='/store'>
+		<Link href='/store' prefetch={true}>
 			<a className={styles.link}>Store</a>
 		</Link>
-		<Link href='/contact'>
+		<Link href='/contact' prefetch={true}>
 			<a className={styles.link}>Contact</a>
 		</Link>
 	</nav>
@@ -33,4 +33,4 @@ export const Nav = ({
 
 Nav.displayName = 'Nav';
 
-export default memo<PropsType>(Nav);
+export default memo < PropsType > (Nav);

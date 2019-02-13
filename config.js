@@ -42,23 +42,12 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Savvy',
 			role: 'Main Tank',
 			twitch: 'savvy_ow',
-			twitter: 'Savvy_OW'
+			twitter: 'Savvy_OW',
 		}],
 	},
 	terra: {
 		name: 'Magna Terra',
-		players: [{
-			bio: `Hello, My name is EgleaFlame and I am 18 years old and i play Main Tank for Magna Terra. I am a previous console but have recently fully moved to PC during S13, my console peak has been 4703 and I have been rank 1 there for about 4 seasons in a row while solo queing to rank 1 on a smurf and stacking on another account to rank 1. I used to play on a console team for about a year and a half as their IGL and target caller. I have only won one tourney on console, but i strive to win as many tourneys on pc. My goal is to grind OW to reach OWL and be one of the, if not the best Main Tank, i also want to represent my fellow console players and inspire some of them to strive for greatness! Fun fact I am also married to @MrsEgleaFlame on twitter!`,
-			name: 'Eglea',
-			role: 'Main Tank',
-			twitch: 'mico_ot',
-			twitter: 'EgleaFlame',
-		}, {
-			bio: `I've been playing Overwatch competitively since Open Division 2018 season one. I've scratched top 500 multiple times but I haven't sat in it properly. I'll be playing main support for Terra, and I currently flex for JMU's Tespa team, peaking top 10 in the preseason. Before Overwatch I played TF2 at its lowest competitive level. I'll be streaming as often as possible, but it's hard as a college student on 2 competitive teams.`,
-			name: 'Ironcrit',
-			role: 'Main Support',
-			twitch: 'ironcritow',
-		}],
+		players: [],
 	},
 	ventus: {
 		name: 'Magna Ventus',

@@ -14,61 +14,39 @@ export const Footer = (): Element<'div'> => (
 			<div className={styles.sections}>
 				<div className={styles.section}>
 					<h5 className={styles.sectionTitle}>Organization</h5>
-					<Link href='/'>
+					<Link href='/' prefetch={true}>
 						<a className={styles.link}>Home</a>
 					</Link>
-					<Link href='/matches'>
+					<Link href='/matches' prefetch={true}>
 						<a className={styles.link}>Matches</a>
 					</Link>
-					<Link href='/teams'>
+					<Link href='/teams' prefetch={true}>
 						<a className={styles.link}>Teams</a>
 					</Link>
-					<Link href='/store'>
+					<Link href='/store' prefetch={true}>
 						<a className={styles.link}>Store</a>
 					</Link>
-					<Link href='/contact'>
+					<Link href='/contact' prefetch={true}>
 						<a className={styles.link}>Contact</a>
 					</Link>
 				</div>
-				<div className={styles.section}>
-					<h5 className={styles.sectionTitle}>Team Ignis</h5>
-					{TEAMS.ignis.players.map((player: PlayerType): Element<'a'> => (
-						<a
-							className={styles.link}
-							href={player.twitch ? `https://twitch.tv/${player.twitch}` : '#'}
-							key={player.name}
-							rel='noopener noreferrer'
-							target='_blank'>
-							{player.name}
-						</a>
-					))}
-				</div>
-				<div className={styles.section}>
-					<h5 className={styles.sectionTitle}>Team Terra</h5>
-					{TEAMS.terra.players.map((player: PlayerType): Element<'a'> => (
-						<a
-							className={styles.link}
-							href={player.twitch ? `https://twitch.tv/${player.twitch}` : '#'}
-							key={player.name}
-							rel='noopener noreferrer'
-							target='_blank'>
-							{player.name}
-						</a>
-					))}
-				</div>
-				<div className={styles.section}>
-					<h5 className={styles.sectionTitle}>Team Ventus</h5>
-					{TEAMS.ventus.players.map((player: PlayerType): Element<'a'> => (
-						<a
-							className={styles.link}
-							href={player.twitch ? `https://twitch.tv/${player.twitch}` : '#'}
-							key={player.name}
-							rel='noopener noreferrer'
-							target='_blank'>
-							{player.name}
-						</a>
-					))}
-				</div>
+				{['ignis', 'terra', 'ventus'].map((team: string): ?Element<'div'> => (
+					TEAMS[team].players.length ? (
+						<div className={styles.section}>
+							<h5 className={styles.sectionTitle}>Team Ignis</h5>
+							{TEAMS[team].players.map((player: PlayerType): Element<'a'> => (
+								<a
+									className={styles.link}
+									href={player.twitch ? `https://twitch.tv/${player.twitch}` : '#'}
+									key={player.name}
+									rel='noopener noreferrer'
+									target='_blank'>
+									{player.name}
+								</a>
+							))}
+						</div>
+					) : null
+				))}
 				<div className={styles.section}>
 					<h5 className={styles.sectionTitle}>Social</h5>
 					<a
@@ -124,4 +102,4 @@ export const Footer = (): Element<'div'> => (
 
 Footer.displayName = 'Footer';
 
-export default memo<{}>(Footer);
+export default memo < {} > (Footer);
