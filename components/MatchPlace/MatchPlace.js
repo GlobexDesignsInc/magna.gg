@@ -8,7 +8,7 @@ import styles from './MatchPlace.css';
 
 type PropsType = {
 	className?: ?string,
-	place: 1 | 2 | 3,
+	place: number,
 };
 
 export const MatchPlace = ({

@@ -8,6 +8,8 @@ import Link from 'next/link';
 import Logo from '../Logo';
 import styles from './Footer.css';
 
+type TeamType = 'ignis' | 'ventus' | 'terra';
+
 export const Footer = (): Element<'div'> => (
 	<div className={styles.main}>
 		<InnerContent>
@@ -30,7 +32,7 @@ export const Footer = (): Element<'div'> => (
 						<a className={styles.link}>Contact</a>
 					</Link>
 				</div>
-				{['ignis', 'terra', 'ventus'].map((team: string): ?Element<'div'> => (
+				{['ignis', 'terra', 'ventus'].map((team: TeamType): ?Element<'div'> => (
 					TEAMS[team].players.length ? (
 						<div className={styles.section}>
 							<h5 className={styles.sectionTitle}>

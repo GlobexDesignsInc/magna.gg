@@ -8,8 +8,8 @@ type PropsType = {
 	className?: ?string,
 	date: string,
 	event: string,
-	place?: 1 | 2 | 3,
-	team: 'magna' | 'ignis' | 'ventus',
+	place?: number,
+	team: 'magna' | 'ignis' | 'ventus' | 'terra',
 };
 
 export const Match = ({
@@ -34,4 +34,4 @@ export const Match = ({
 
 Match.displayName = 'Match';
 
-export default memo<PropsType>(Match);
+export default memo < PropsType > (Match);

@@ -38,11 +38,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'Ally',
 			role: 'Flex DPS',
-		}, {
-			name: 'Savvy',
-			role: 'Main Tank',
-			twitch: 'savvy_ow',
-			twitter: 'Savvy_OW',
 		}],
 	},
 	terra: {
@@ -64,6 +59,9 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'Chaxus',
 			role: 'Off-Tank',
+		}, {
+			name: 'Yusuf',
+			role: 'Main Tank',
 		}, {
 			bio: `Hey, I'm Jackal, I am a peak 4285 flex player. My strongest specializations are histcan/hanzo/zarya, but can play most of the Overwatch heroes at a proficient level. Some may refer to me as even a flex god. I started my eSports career in CS 1.6 via CEVO and CAL leagues which then continued into CS:S. From there I transitioned into the TWL for CoD4. After that i found myself sucked into the MOBA life with League of Legends until Overwatch came out with an occasional visit back to my FPS roots with releases of new CoD and Battlefield titles. I have played on many teams in many amateur tournaments and have hundreds of hours in scrim experience. I also stream quite frequently on twitch.`,
 			name: 'Jackal',

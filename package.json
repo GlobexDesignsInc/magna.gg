@@ -22,9 +22,9 @@
 		"express": "4.16.4",
 		"greenlock-express": "2.6.7",
 		"ordinal": "1.0.2",
-		"next": "8.0.0",
-		"react": "16.8.1",
-		"react-dom": "16.8.1",
+		"next": "8.0.3",
+		"react": "16.8.3",
+		"react-dom": "16.8.3",
 		"react-ga": "2.5.7",
 		"react-helmet": "5.2.0"
 	},
@@ -32,7 +32,7 @@
 		"@babel/preset-flow": "7.0.0",
 		"@globexdesigns/deploy": "0.2.5",
 		"eslint-config-cumul8": "8.0.0",
-		"flow-bin": "0.92.1",
+		"flow-bin": "0.93.0",
 		"flow-typed": "2.5.1"
 	}
 }
