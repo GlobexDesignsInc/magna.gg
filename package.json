@@ -20,7 +20,7 @@
 		"@zeit/next-css": "1.0.1",
 		"classnames": "2.2.6",
 		"express": "4.16.4",
-		"greenlock-express": "2.6.7",
+		"greenlock-express": "2.6.8",
 		"ordinal": "1.0.2",
 		"next": "8.0.3",
 		"react": "16.8.3",
@@ -32,7 +32,7 @@
 		"@babel/preset-flow": "7.0.0",
 		"@globexdesigns/deploy": "0.2.5",
 		"eslint-config-cumul8": "8.0.0",
-		"flow-bin": "0.93.0",
+		"flow-bin": "0.94.0",
 		"flow-typed": "2.5.1"
 	}
 }
