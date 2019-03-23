@@ -1,12 +1,14 @@
 {
     "extends": "eslint-config-cumul8",
+    "overrides": [{
+        files: ["pages/*.js"],
+        rules: {
+            "filenames/match-exported": "off"
+        }
+    }],
     "rules": {
-        "flowtype/no-unused-expressions": "off",
         "jsx-a11y/html-has-lang": "off",
-        "lines-between-class-members": "off",
-        "max-len": "off",
         "no-process-env": "off",
-        "promise/no-native": "off",
-        "react/prop-types": "off"
+        "promise/no-native": "off"
     }
 }

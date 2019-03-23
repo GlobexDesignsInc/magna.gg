@@ -8,14 +8,14 @@ type PropsType = {
 	children?: Node,
 	className?: ?string,
 	title?: ?string,
-	withPadding?: boolean
+	withPadding?: boolean,
 };
 
 export const InnerContent = ({
 	children,
 	className,
 	title,
-	withPadding
+	withPadding,
 }: PropsType): Element<'div'> => (
 	<div className={classnames(
 		styles.main,

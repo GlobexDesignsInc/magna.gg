@@ -4,7 +4,6 @@ import React, {type Element} from 'react';
 import {Helmet} from 'react-helmet';
 import InnerContent from '../components/InnerContent';
 import PageTemplate from '../containers/PageTemplate';
-import styles from './store.css';
 
 export const Store = (): Element<typeof PageTemplate> => (
 	<PageTemplate>

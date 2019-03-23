@@ -19,7 +19,7 @@ export const Team = ({
 			<h2>{teamData.name}</h2>
 			<div className={styles.players}>
 				{teamData.players.length === 0 && (
-					<p>This team currently doesn't have an active roster.</p>
+					<p>This team currently doesn&apos;t have an active roster.</p>
 				)}
 
 				{teamData.players.map((p: PlayerType): Element<'div'> => {
@@ -64,4 +64,4 @@ export const Team = ({
 
 Team.displayName = 'Team';
 
-export default memo < PropsType > (Team);
+export default memo < PropsType >(Team);

@@ -31,4 +31,4 @@ export const MatchPlace = ({
 
 MatchPlace.displayName = 'MatchPlace';
 
-export default memo < PropsType > (MatchPlace);
+export default memo<PropsType>(MatchPlace);
