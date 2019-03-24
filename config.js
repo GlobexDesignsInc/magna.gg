@@ -37,6 +37,7 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'Ally',
 			role: 'Flex DPS',
+			twitter: 'ally__ow',
 		}, {
 			name: 'Seyeumi',
 			role: 'Flex Support',
@@ -54,13 +55,20 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Eski',
 			role: 'Support',
 		}, {
-			name: 'Hamurai',
-			role: 'Support',
-		}, {
 			name: 'Adduuuh',
 			role: 'Support',
 		}, {
-			name: 'Chaxus',
+			name: 'Noro',
+			role: 'Main Tank',
+			twitch: 'noro_ow',
+			twitter: 'Noro_OW',
+		}, {
+			name: '5ean',
+			role: 'Hitscan',
+			twitch: 'xoyusow',
+			twitter: 'XoyusOW',
+		}, {
+			name: 'Code',
 			role: 'Off-Tank',
 		}, {
 			// eslint-disable-next-line max-len
