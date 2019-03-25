@@ -39,8 +39,14 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Flex DPS',
 			twitter: 'ally__ow',
 		}, {
+			// eslint-disable-next-line max-len
+			bio: `I'm Seyeumi and I am a Zenyatta and Ana specialist, but I play every support. I'm 21 years old and I've been playing in the T3 scene since early 2017. Prior to Overwatch I was grinding semi-pro League of Legends, and with a strong desire leftover to reach the top I ended up grinding Overwatch since beta. I have so much left in me to prove myself. I also probably survive off of caffeine and boba.`,
 			name: 'Seyeumi',
 			role: 'Flex Support',
+		}, {
+			name: 'Jay',
+			role: 'Flex',
+			twitter: 'jay_overwatch',
 		}],
 	},
 	terra: {
