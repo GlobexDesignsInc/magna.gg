@@ -4,12 +4,12 @@ import React, {type Element, memo, type Node} from 'react';
 import classnames from 'classnames';
 import styles from './InnerContent.css';
 
-type PropsType = {
+type PropsType = {|
 	children?: Node,
 	className?: ?string,
 	title?: ?string,
 	withPadding?: boolean,
-};
+|};
 
 export const InnerContent = ({
 	children,

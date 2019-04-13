@@ -5,10 +5,10 @@ import React, {type Element, memo, type Node} from 'react';
 import InnerContent from '../InnerContent';
 import styles from './VideoTeaser.css';
 
-type PropsType = {
+type PropsType = {|
 	children?: Node,
 	src: string,
-};
+|};
 
 export const VideoTeaser = ({
 	children,

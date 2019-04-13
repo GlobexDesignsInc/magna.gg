@@ -6,10 +6,10 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import indicator from 'ordinal/indicator';
 import styles from './MatchPlace.css';
 
-type PropsType = {
+type PropsType = {|
 	className?: ?string,
 	place: number,
-};
+|};
 
 export const MatchPlace = ({
 	className,

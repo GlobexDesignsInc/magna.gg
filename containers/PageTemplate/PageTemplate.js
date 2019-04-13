@@ -5,9 +5,9 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import styles from './PageTemplate.css';
 
-type PropsType = {
+type PropsType = {|
 	children?: Node,
-};
+|};
 
 export const PageTemplate = ({
 	children,

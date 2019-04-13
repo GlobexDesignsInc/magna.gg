@@ -6,9 +6,9 @@ import classnames from 'classnames';
 import Link from 'next/link';
 import styles from './Logo.css';
 
-type PropsType = {
+type PropsType = {|
 	className?: ?string,
-};
+|};
 
 export const Logo = ({
 	className,

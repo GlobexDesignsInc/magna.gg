@@ -2,11 +2,11 @@
 
 import React, {type Element, memo} from 'react';
 
-type PropsType = {
+type PropsType = {|
 	alt?: ?string,
 	className?: ?string,
 	src: string,
-};
+|};
 
 export const Img = ({
 	alt,

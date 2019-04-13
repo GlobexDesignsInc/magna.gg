@@ -6,6 +6,8 @@ import Nav from '../Nav';
 import SocialBar from '../SocialBar';
 import styles from './Header.css';
 
+type PropsType = {};
+
 export const Header = (): Element<'div'> => (
 	<div className={styles.main}>
 		<div className={styles.inner}>
@@ -18,4 +20,4 @@ export const Header = (): Element<'div'> => (
 
 Header.displayName = 'Header';
 
-export default memo<{}>(Header);
+export default memo<PropsType>(Header);

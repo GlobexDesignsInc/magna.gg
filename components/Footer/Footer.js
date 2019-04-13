@@ -8,6 +8,8 @@ import Link from 'next/link';
 import Logo from '../Logo';
 import styles from './Footer.css';
 
+type PropsType = {};
+
 type TeamType = 'ignis' | 'ventus' | 'terra';
 
 export const Footer = (): Element<'div'> => (
@@ -106,4 +108,4 @@ export const Footer = (): Element<'div'> => (
 
 Footer.displayName = 'Footer';
 
-export default memo < {} >(Footer);
+export default memo<PropsType>(Footer);

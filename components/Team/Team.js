@@ -5,9 +5,9 @@ import React, {type Element, memo} from 'react';
 import SocialButton from '../SocialButton';
 import styles from './Team.css';
 
-type PropsType = {
+type PropsType = {|
 	team: 'ignis' | 'terra' | 'ventus',
-};
+|};
 
 export const Team = ({
 	team,
@@ -64,4 +64,4 @@ export const Team = ({
 
 Team.displayName = 'Team';
 
-export default memo < PropsType >(Team);
+export default memo <PropsType>(Team);

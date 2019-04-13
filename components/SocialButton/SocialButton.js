@@ -5,12 +5,12 @@ import classnames from 'classnames';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import styles from './SocialButton.css';
 
-type PropsType = {
+type PropsType = {|
 	className?: ?string,
 	href: string,
 	icon: string,
 	title: string,
-};
+|};
 
 export const SocialButton = ({
 	className,

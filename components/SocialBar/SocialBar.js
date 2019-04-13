@@ -3,9 +3,9 @@
 import React, {type Element, memo} from 'react';
 import SocialButton from '../SocialButton';
 
-type PropsType = {
+type PropsType = {|
 	className?: ?string,
-};
+|};
 
 export const SocialBar = ({
 	className,

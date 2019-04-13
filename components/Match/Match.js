@@ -4,13 +4,13 @@ import React, {type Element, memo} from 'react';
 import MatchPlace from '../MatchPlace';
 import styles from './Match.css';
 
-type PropsType = {
+type PropsType = {|
 	className?: ?string,
 	date: string,
 	event: string,
 	place?: number,
 	team: 'magna' | 'ignis' | 'ventus' | 'terra',
-};
+|};
 
 export const Match = ({
 	className,

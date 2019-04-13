@@ -4,11 +4,11 @@ import React, {type Element, memo, type Node} from 'react';
 import classnames from 'classnames';
 import styles from './Button.css';
 
-type PropsType = {
+type PropsType = {|
 	children?: Node,
 	className?: ?string,
 	onClick?: () => any,
-};
+|};
 
 export const Button = ({
 	children,

@@ -5,9 +5,9 @@ import React, {type Element, memo} from 'react';
 import Link from 'next/link';
 import styles from './Nav.css';
 
-type PropsType = {
+type PropsType = {|
 	className?: ?string,
-};
+|};
 
 export const Nav = ({
 	className,
