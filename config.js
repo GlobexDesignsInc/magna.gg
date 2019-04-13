@@ -52,22 +52,24 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 	terra: {
 		name: 'Magna Terra',
 		players: [{
-			name: 'gaynola',
+			name: 'Gaynola',
 			role: 'Hitscan',
 		}, {
 			// eslint-disable-next-line max-len
 			bio: `I've been playing Overwatch competitively since Open Division 2018 season one. I finished top 500 season 13/14 and peaked 4505. I'll be playing main support for Terra, and I currently flex for JMU's Tespa team, peaking top 10 in the preseason. Before Overwatch I played TF2 at its lowest competitive level. I'll be streaming as often as possible, but it's hard as a college student on 2 competitive teams.`,
-			name: 'ironcrit',
+			name: 'Ironcrit',
 			role: 'Main Support',
 			twitch: 'IronCritOW',
 			twitter: 'IronCritOW',
 		}, {
-			// eslint-disable-next-line max-len
-			bio: ``,
 			name: 'Nico',
 			role: 'Flex DPS',
 			twitch: 'ow_nico',
 			twitter: 'OW_Nico_',
+		}, {
+			name: 'Garmmz',
+			role: 'Main Tank',
+			twitch: 'garmmz',
 		}],
 	},
 	ventus: {
