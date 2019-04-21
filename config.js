@@ -95,9 +95,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			twitch: 'xoyusow',
 			twitter: 'XoyusOW',
 		}, {
-			name: 'Code',
-			role: 'Off-Tank',
-		}, {
 			name: 'Hkeybroke',
 			role: 'Flex DPS',
 			twitch: 'hkeybroke',
@@ -108,6 +105,11 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Jackal',
 			role: 'DPS',
 			twitch: 'EbilJackal',
+		}, {
+			// eslint-disable-next-line max-len
+			bio: `Hi guys, I’m Xirius. I’m a peak 4450 off-tank player currently playing for Magna Ventus. I love listening to music and watching fun youtube video clips. I am interested in new culture and talking to people. Although I used to be a solo queue style player in competitive game, I also love playing in team environment and play for the team and people who I respect and care about. I’m looking forward to improve myself in Ventus with amazing teammates, managers, and coaches!`,
+			name: 'Xirius',
+			role: 'Off-Tank',
 		}],
 	},
 };
