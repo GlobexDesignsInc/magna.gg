@@ -62,6 +62,8 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			twitch: 'IronCritOW',
 			twitter: 'IronCritOW',
 		}, {
+			// eslint-disable-next-line max-len
+			bio: `What’s up gamers I'm Nico. I play Flex DPS for Terra as well as James Madison University's (JMU’s) Tespa team, ending at rank 10 in the preaseason. I began playing Overwatch on its first beta wave in November of 2015. Season 1 I peaked rank 80 (#89 in Top 500) and after that I have always been GM/peaked Top 500 except for a short period of 3 or 4 seasons where I took a break while transitioning into a college environment. Even after playing for so long I still have the competitive drive to improve and I really want to keep grinding and show my true potential. I sometimes stream on Twitch and am very active on Twitter so follow me pls :).`,
 			name: 'Nico',
 			role: 'Flex DPS',
 			twitch: 'ow_nico',
