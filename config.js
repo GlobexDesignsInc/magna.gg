@@ -47,6 +47,12 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Jay',
 			role: 'Flex',
 			twitter: 'jay_overwatch',
+		}, {
+			// eslint-disable-next-line max-len
+			bio: `Ayy what's up. My name's Paendo. I'm a Junior in Highschool, I play the Trombone, I love english muffins, and I'm the Main-Tank for Magna Ignis. Up until a couple years ago, I played video games casually, but once I saw myself improve within Overwatch and go from Silver to Diamond in competitive (Season 5), I felt that I could make something awesome out of this. Everyone in competitive also seems to take a more toxic approach to dealing with other players, which can be very frustrating, but I try to keep the peace between the players and focus on the game. I know that if I work hard and improve, I can become better and better. I feel like I've finally found a team that can support me as a player and help me do just that. Some people I'd like to thank are ChroNoDotA for the insightful coaching and overall good answers to my questions, my Mom for putting up with my newly-found scrims and tournaments, my Dad for being my biggest fan, and my friends for believing in me and cheering me on from the sidelines. Thanks everyone. PS: VIBRANT IS A BOT`,
+			name: 'Paendo',
+			twitch: 'paendotv',
+			twitter: 'paendotv',
 		}],
 	},
 	terra: {
