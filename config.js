@@ -33,10 +33,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Off-Tank',
 			twitch: 'pyrothetank',
 		}, {
-			name: 'Pastel',
-			role: 'Main Support',
-			twitter: 'magnapastel',
-		}, {
 			name: 'Ally',
 			role: 'Flex DPS',
 			twitter: 'ally__ow',
