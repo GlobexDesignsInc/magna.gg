@@ -77,7 +77,7 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Main Tank',
 			twitch: 'garmmz',
 		}, {
-			name: 'Sneaky',
+			name: 'Vrosado',
 			role: 'Flex Support',
 		}],
 	},
