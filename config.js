@@ -48,6 +48,9 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Paendo',
 			twitch: 'paendotv',
 			twitter: 'PaendoTV',
+		}, {
+			name: 'HWM Muffin',
+			twitch: 'HWM_Muffin',
 		}],
 	},
 	terra: {
