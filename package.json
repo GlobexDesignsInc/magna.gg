@@ -4,18 +4,18 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "next build",
-		"deploy": "yarn build && node scripts/deploy.js",
+		"deploy": "yarn build && deploy run -v",
 		"dev": "node server.js",
-		"eslint": "eslint-cumul8 components containers pages scripts utils *.js",
+		"eslint": "eslint-cumul8 components containers pages utils *.js",
 		"flow": "flow",
-		"flow-typed:update": "flow-typed update --ignoreDeps dev",
+		"flow-typed:update": "rm -rf flow-typed && flow-typed install --ignoreDeps dev",
 		"start": "NODE_ENV=production node server.js",
 		"test": "yarn flow && yarn eslint"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-svg-core": "1.2.17",
-		"@fortawesome/free-brands-svg-icons": "5.8.1",
-		"@fortawesome/free-solid-svg-icons": "5.8.1",
+		"@fortawesome/fontawesome-svg-core": "1.2.18",
+		"@fortawesome/free-brands-svg-icons": "5.8.2",
+		"@fortawesome/free-solid-svg-icons": "5.8.2",
 		"@fortawesome/react-fontawesome": "0.1.4",
 		"@zeit/next-css": "1.0.1",
 		"classnames": "2.2.6",
@@ -30,9 +30,9 @@
 	},
 	"devDependencies": {
 		"@babel/preset-flow": "7.0.0",
-		"@globexdesigns/deploy": "0.2.5",
+		"@globexdesigns/deploy": "0.3.5",
 		"eslint-config-cumul8": "8.0.50",
-		"flow-bin": "0.98.0",
+		"flow-bin": "0.98.1",
 		"flow-typed": "2.5.1"
 	}
 }

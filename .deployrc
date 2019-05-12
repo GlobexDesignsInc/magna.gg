@@ -1,0 +1,14 @@
+{
+	host: '204.48.29.253',
+	private_key_path: '/home/globex/.ssh/id_rsa',
+	sources: [
+		'.next',
+		'static',
+		'package.json',
+		'config.js',
+		'server.js',
+		'yarn.lock'
+	],
+	target_dir: '/var/www/magna.gg',
+	user: 'root',
+}

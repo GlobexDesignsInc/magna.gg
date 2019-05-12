@@ -2,18 +2,18 @@
 
 type TeamIdType = 'ignis' | 'terra' | 'ventus';
 
-export type PlayerType = {
+export type PlayerType = {|
 	bio?: string,
 	name: string,
 	role: string,
 	twitch?: string,
 	twitter?: string,
-};
+|};
 
-export type TeamType = {
+export type TeamType = {|
 	name: string,
 	players: Array<PlayerType>,
-};
+|};
 
 // eslint-disable-next-line import/prefer-default-export
 export const TEAMS: {[key: TeamIdType]: TeamType} = {
@@ -46,10 +46,12 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			// eslint-disable-next-line max-len
 			bio: `Ayy whaddup, my name's Paendo and I'm the Main-Tank for Magna Ignis. I'm a Junior in Highschool and I have a PROFOUND love for english muffins. Up until a couple years ago, I played video games casually, but once I saw myself improve within Overwatch and go from Silver to Diamond in competitive (Season 5), I felt that I could make something awesome out of this. Everyone in competitive also seems to take a more toxic approach to dealing with other players, which can be very frustrating, but I try to keep the peace between the players and focus on the game. I know that if I work hard and improve, I can become better and better. I feel like I've finally found a team that can support me as a player and help me do just that. Thank you to everyone who has supported me. PS: VIBRANT IS A BOT`,
 			name: 'Paendo',
+			role: 'Main Tank',
 			twitch: 'paendotv',
 			twitter: 'PaendoTV',
 		}, {
 			name: 'HWM Muffin',
+			role: 'Main Support',
 			twitch: 'HWM_Muffin',
 		}],
 	},
