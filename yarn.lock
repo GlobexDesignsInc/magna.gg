@@ -771,12 +771,12 @@
     humps "^2.0.1"
     prop-types "^15.5.10"
 
-"@globexdesigns/deploy@0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@globexdesigns/deploy/-/deploy-0.3.5.tgz#e672d0388c76149f4d48d189855b7f9f495f8d18"
-  integrity sha512-ro6A9QJPu02oxdTPYGoKikAOOs4/LPX3Bsw21WhIYr5Q4CZe9OlXbu808cyLfMwBVYX+yBL+QLjX2zYGJxfmXA==
+"@globexdesigns/deploy@0.3.8":
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/@globexdesigns/deploy/-/deploy-0.3.8.tgz#738dee18908d6a16a77b435ee836dd007d39bd4b"
+  integrity sha512-KFNG4oQYr59PgxuJRyOtu0Z75QJxVis4h+A9JiPZHXC9O8mM17cPNvYdTWLtHZH6rYpfIkEdGiY91uqn48Kdxw==
   dependencies:
-    "@hapi/joi" "^15.0.2"
+    "@hapi/joi" "^15.0.3"
     archiver "^3.0.0"
     chalk "^2.4.2"
     commander "^2.20.0"
@@ -796,10 +796,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-6.2.1.tgz#d3a66329159af879bfdf0b0cff2229c43c5a3451"
   integrity sha512-+ryw4GU9pjr1uT6lBuErHJg3NYqzwJTvZ75nKuJijEzpd00Uqi6oiawTGDDf5Hl0zWmI7qHfOtaqB0kpQZJQzA==
 
-"@hapi/joi@^15.0.2":
-  version "15.0.2"
-  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-15.0.2.tgz#2989041a06ee2941cf6dd247ffff8032640d16bb"
-  integrity sha512-c3NwWBHzUnEavcaCpGaepOcygS17pSnOh5ZYUBz+sfqCP7kC9haLcRnd3U8KFC4TbLFmRwKnmYglsc47m9yapg==
+"@hapi/joi@^15.0.3":
+  version "15.0.3"
+  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-15.0.3.tgz#e94568fd859e5e945126d5675e7dd218484638a7"
+  integrity sha512-z6CesJ2YBwgVCi+ci8SI8zixoj8bGFn/vZb9MBPbSyoxsS2PnWYjHcyTM17VLK6tx64YVK38SDIh10hJypB+ig==
   dependencies:
     "@hapi/address" "2.x.x"
     "@hapi/hoek" "6.x.x"
@@ -2170,6 +2170,14 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     ripemd160 "^2.0.0"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+cross-env@5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.0.tgz#6ecd4c015d5773e614039ee529076669b9d126f2"
+  integrity sha512-jtdNFfFW1hB7sMhr/H6rW1Z45LFqyI431m3qU6bFXcQ3Eh7LtBuG3h74o7ohHZ3crrRkkqHlo4jYHFPcjroANg==
+  dependencies:
+    cross-spawn "^6.0.5"
+    is-windows "^1.0.0"
 
 cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
@@ -3885,7 +3893,7 @@ is-utf8@^0.2.0:
   resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
   integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
 
-is-windows@^1.0.2:
+is-windows@^1.0.0, is-windows@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-windows/-/is-windows-1.0.2.tgz#d1850eb9791ecd18e6182ce12a30f396634bb19d"
   integrity sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==
