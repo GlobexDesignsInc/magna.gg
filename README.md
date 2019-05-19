@@ -6,8 +6,8 @@
 
 ## Development
 
-- Use Windows `Command Prompt`
-- Run `yarn start` to launch server
+- Use `Bash on Windows`
+- Run `yarn dev` to launch server
 
 Then open http://localhost:3000/ to see the app.
 

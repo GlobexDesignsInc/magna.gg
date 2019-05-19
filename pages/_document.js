@@ -63,7 +63,6 @@ export default class MyDocument extends Document {
 					{headElements}
 					<link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' />
 					<link href='/static/favicon.ico' rel='icon' type='image/x-icon' />
-					<link href='/_next/static/style.css' rel='stylesheet' />
 					<style>{`
 					/* Prevent Flash of content for Font Awesome */
 					.svg-inline--fa { height: 1em }

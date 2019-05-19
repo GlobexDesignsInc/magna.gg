@@ -3,11 +3,7 @@
 import ReactGA from 'react-ga';
 
 export const initGA = () => {
-	const __DEV__ = process.env.NODE_ENV !== 'production';
-
-	ReactGA.initialize('UA-250654-13', {
-		debug: __DEV__,
-	});
+	ReactGA.initialize('UA-250654-13');
 };
 
 export const logPageView = () => {
