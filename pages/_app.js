@@ -3,6 +3,7 @@
 import './_app.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import App, {Container} from 'next/app';
+import {DEFAULT_META, SITE_NAME} from '../constants/seo';
 import {
 	faAward,
 	faComments,
@@ -18,6 +19,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import {initGA, logPageView} from '../utils/analytics';
 import React, {type Element} from 'react';
+import {Helmet} from 'react-helmet';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import Router from 'next/router';
 
@@ -58,6 +60,11 @@ export default class MyApp extends App {
 		const {Component, pageProps} = this.props;
 		return (
 			<Container>
+				<Helmet
+					htmlAttributes={{lang: 'en'}}
+					meta={DEFAULT_META}
+					title={SITE_NAME}
+					titleTemplate={`%s | ${SITE_NAME}`} />
 				<Component {...pageProps} />
 			</Container>
 		);

@@ -5,6 +5,7 @@
 		'.next',
 		'static',
 		'package.json',
+		'robots.txt',
 		'config.js',
 		'server.js',
 		'yarn.lock'
