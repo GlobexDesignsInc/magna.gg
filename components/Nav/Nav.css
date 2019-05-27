@@ -5,9 +5,8 @@
 	text-transform: uppercase;
 }
 
-.link + .link {
-	margin-left: 16px;
-}
+/* stylelint-disable-next-line selector-max-combinators */
+.link + .link { margin-left: 16px }
 
 /* Mobile */
 @media screen and (max-width: 1280px) {
@@ -16,7 +15,6 @@
 		padding: 8px;
 	}
 
-	.link + .link {
-		margin-left: 8px
-	}
+	/* stylelint-disable-next-line selector-max-combinators */
+	.link + .link { margin-left: 8px }
 }

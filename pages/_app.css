@@ -1,16 +1,11 @@
+/* stylelint-disable selector-max-combinators, selector-max-type */
+
 :global html,
 :global body {
 	height: 100%;
 }
 
 :global body {
-	background: #09090B url(/static/bg.png) no-repeat center top;
-	background-size: cover;
-	color: #FFF;
-	letter-spacing: 0.5px;
-	margin: 0;
-	padding: 0;
-
 	--BLUE: #16ABE0;
 	--DARK-GRAY: #989899;
 	--GRAY: #C8C8C9;
@@ -18,6 +13,12 @@
 	--ORANGE: #FF991B;
 	--RED: #E64B0E;
 	--YELLOW: #F0D70E;
+	background: #09090B url("/static/bg.png") no-repeat center top;
+	background-size: cover;
+	color: #FFF;
+	letter-spacing: 0.5px;
+	margin: 0;
+	padding: 0;
 }
 
 :global body,
@@ -25,6 +26,7 @@
 	font-family: Roboto, sans-serif;
 }
 
+/* stylelint-disable-next-line selector-max-id, selector-max-specificity */
 :global #__next {
 	display: flex;
 	flex-direction: column;
@@ -48,8 +50,8 @@
 
 :global p {
 	color: var(--GRAY);
-	font-weight: 300;
 	font-size: 14px;
+	font-weight: 300;
 	line-height: 24px;
 	margin: 8px 0;
 }

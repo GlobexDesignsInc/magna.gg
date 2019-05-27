@@ -2,6 +2,7 @@
 	padding: 16px 0;
 }
 
+/* stylelint-disable-next-line selector-max-combinators */
 .main + .main {
 	border-top: 1px dashed var(--YELLOW);
 	margin-top: 32px;
@@ -20,7 +21,7 @@
 }
 
 .playerAvatar {
-	background: black;
+	background: #000;
 	border-radius: 50%;
 	flex: 0 0 64px;
 	height: 64px;
@@ -58,15 +59,14 @@
 
 .playerRole {
 	color: var(--GRAY);
-	font-style: italic;
 	font-size: 14px;
+	font-style: italic;
 }
 
 /* Mobile */
 @media screen and (max-width: 1280px) {
 	.players {
-		flex-direction: column;
-		flex-wrap: initial;
+		flex-flow: column initial;
 	}
 
 	.player {
