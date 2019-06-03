@@ -111,7 +111,7 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Off-Tank',
 		}, {
 			name: 'Klao',
-			role: 'Flex DPS',
+			role: 'Flex Support',
 			twitch: 'klaoo',
 		}, {
 			// eslint-disable-next-line max-len
