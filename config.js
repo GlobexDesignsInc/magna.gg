@@ -82,6 +82,9 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'Vrosado',
 			role: 'Flex Support',
+		}, {
+			name: 'Jay',
+			role: 'Off-Tank',
 		}],
 	},
 	ventus: {
