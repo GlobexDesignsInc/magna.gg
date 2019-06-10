@@ -13,16 +13,17 @@ export const Team = ({
 	team,
 }: PropsType): Element<'div'> => {
 	const teamData = TEAMS[team];
+	const players = (teamData.players || []);
 
 	return (
 		<div className={styles.main}>
 			<h2>{teamData.name}</h2>
 			<div className={styles.players}>
-				{teamData.players.length === 0 && (
+				{players.length === 0 && (
 					<p>This team currently doesn&apos;t have an active roster.</p>
 				)}
 
-				{teamData.players.map((p: PlayerType): Element<'div'> => {
+				{players.map((p: PlayerType): Element<'div'> => {
 					const id = p.name.toLowerCase();
 
 					return (

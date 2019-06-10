@@ -35,7 +35,7 @@ export const Footer = (): Element<'div'> => (
 					</Link>
 				</div>
 				{['ignis', 'terra', 'ventus'].map((team: TeamType): ?Element<'div'> => (
-					TEAMS[team].players.length ? (
+					(TEAMS[team].players || []).length ? (
 						<div className={styles.section} key={team}>
 							<h5 className={styles.sectionTitle}>
 								{TEAMS[team].name}

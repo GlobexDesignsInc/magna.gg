@@ -19,6 +19,26 @@ export const Matches = (): Element<typeof PageTemplate> => (
 			<h3>Past</h3>
 
 			<Match
+				date='May 25, 2019'
+				event='NCS Minor | Overwatch: Philadelphia, PA'
+				place={2}
+				team='magna' />
+			<Match
+				date='Apr 2019'
+				event='2019 Overwatch Open Division Season 2'
+				place={25}
+				team='ignis' />
+			<Match
+				date='Apr 2019'
+				event='2019 Overwatch Open Division Season 2'
+				place={33}
+				team='terra' />
+			<Match
+				date='Apr 2019'
+				event='2019 Overwatch Open Division Season 2'
+				place={57}
+				team='ventus' />
+			<Match
 				date='Dec 2018'
 				event='2019 Overwatch Open Division Season 1'
 				place={98}
