@@ -1,4 +1,5 @@
 // @flow
+
 /* eslint-disable jsx-a11y/media-has-caption */
 
 import React, {type Element, memo, type Node} from 'react';

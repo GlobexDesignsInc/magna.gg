@@ -1,4 +1,5 @@
 // @flow
+
 /* eslint-disable jsx-a11y/anchor-is-valid, max-len */
 
 import {type PlayerType, TEAMS} from '../../config';
@@ -8,7 +9,7 @@ import Link from 'next/link';
 import Logo from '../Logo';
 import styles from './Footer.css';
 
-type PropsType = {};
+type PropsType = {||};
 
 type TeamType = 'ignis' | 'ventus' | 'terra';
 

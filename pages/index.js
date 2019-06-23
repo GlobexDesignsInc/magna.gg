@@ -1,4 +1,5 @@
 // @flow
+
 /* eslint-disable max-len */
 
 import React, {type Element} from 'react';
