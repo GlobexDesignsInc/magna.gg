@@ -1,0 +1,39 @@
+.main {
+	align-items: center;
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid var(--DARK-GRAY);
+	border-radius: 4px;
+	color: #FFF;
+	cursor: pointer;
+	display: inline-flex;
+	flex-direction: column;
+	font-size: 16px;
+	height: 300px;
+	justify-content: space-between;
+	margin-bottom: 16px;
+	padding: 0;
+	transition: border-color 250ms ease;
+	width: 256px
+}
+
+.main:focus,
+.main:hover {
+	border-color: var(--YELLOW);
+}
+
+.main:active {
+	border-color: var(--GREEN);
+}
+
+.img {
+	max-height: 256px;
+	max-width: 256px;
+}
+
+.name {
+	align-items: center;
+	display: flex;
+	height: 32px;
+	padding: 0 16px;
+	text-align: center;
+}
