@@ -77,7 +77,7 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Off-Tank',
 		}, {
 			// eslint-disable-next-line max-len
-			bio: `Hi, I’m Zeus. I’m 15 and play hitscan for ignis. I love being forced to play sombra. But I like winning so I'll play her. I excel on Widow, Genji, and Zarya and have reached a peak sr of 4295. I sometimes stream on Twitch.`,
+			bio: `Hi, I’m Zeus. I’m 15 and play hitscan for Terra. I love being forced to play sombra. But I like winning so I'll play her. I excel on Widow, Genji, and Zarya and have reached a peak sr of 4295. I sometimes stream on Twitch.`,
 			name: 'Zeus',
 			role: 'Hitscan',
 			twitch: 'zeus0w',
