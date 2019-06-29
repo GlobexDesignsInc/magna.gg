@@ -21,13 +21,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		name: 'Magna Ignis',
 		players: [{
 			// eslint-disable-next-line max-len
-			bio: `Hi, I’m Zeus. I’m 15 and play hitscan for ignis. I love being forced to play sombra. But I like winning so I'll play her. I excel on Widow, Genji, and Zarya and have reached a peak sr of 4295. I sometimes stream on Twitch.`,
-			name: 'Zeus',
-			role: 'Projectile DPS',
-			twitch: 'zeus0w',
-			twitter: 'ZeusXDx3',
-		}, {
-			// eslint-disable-next-line max-len
 			bio: `Hey, the name’s Pyro, I’m an Off tank player who prides herself on her Zarya play and over my almost two years of playing Overwatch have climbed from Silver to GM, and plan on continuing to work my way to the top. I’ve been playing with Magna since its first days, and working alongside my team to improve. Prior to Overwatch I played a mix of games such as CS:GO and Xcom EU/EW. Outside of gaming I’m a University student in computer science in Toronto, and an avid fan of sushi (and seafood in general).`,
 			name: 'Pyro',
 			role: 'Off-Tank',
@@ -59,9 +52,6 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 	terra: {
 		name: 'Magna Terra',
 		players: [{
-			name: 'Gaynola',
-			role: 'Hitscan',
-		}, {
 			// eslint-disable-next-line max-len
 			bio: `I've been playing Overwatch competitively since Open Division 2018 season one. I finished top 500 season 13/14 and peaked 4505. I'll be playing main support for Terra, and I currently flex for JMU's Tespa team, peaking top 10 in the preseason. Before Overwatch I played TF2 at its lowest competitive level. I'll be streaming as often as possible, but it's hard as a college student on 2 competitive teams.`,
 			name: 'Ironcrit',
@@ -85,6 +75,13 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 		}, {
 			name: 'Jay',
 			role: 'Off-Tank',
+		}, {
+			// eslint-disable-next-line max-len
+			bio: `Hi, I’m Zeus. I’m 15 and play hitscan for ignis. I love being forced to play sombra. But I like winning so I'll play her. I excel on Widow, Genji, and Zarya and have reached a peak sr of 4295. I sometimes stream on Twitch.`,
+			name: 'Zeus',
+			role: 'Hitscan',
+			twitch: 'zeus0w',
+			twitter: 'ZeusXDx3',
 		}],
 	},
 	ventus: {
