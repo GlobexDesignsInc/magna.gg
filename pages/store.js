@@ -1,6 +1,6 @@
 // @flow
 
-/* eslint-disable max-len */
+/* eslint-disable max-len, no-inline-comments */
 
 import React, {type Element} from 'react';
 import {Helmet} from 'react-helmet';
@@ -34,10 +34,10 @@ export const Store = (): Element<typeof PageTemplate> => (
 					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-9349abc3_1024x1024.jpg'
 					name='Magna Esports Terra T-Shirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-esports-terra-shirt' />
-				<MerchItem
+				{/* <MerchItem
 					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-b7be60ab_480x.jpg'
 					name='Magna Esports Hat'
-					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-retro-flame-logo-hat' />
+					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-retro-flame-logo-hat' />*/}
 				<MerchItem
 					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-ceaeaa7a_480x.jpg'
 					name='Magna Esports Sweatshirt'
