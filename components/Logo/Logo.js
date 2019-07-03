@@ -1,6 +1,6 @@
-// @flow
+// @flow strict
 
-/* eslint-disable jsx-a11y/anchor-is-valid, jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-has-content */
 
 import React, {type Element, memo} from 'react';
 import classnames from 'classnames';

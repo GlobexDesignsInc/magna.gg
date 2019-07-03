@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 
 import React, {type Element} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';

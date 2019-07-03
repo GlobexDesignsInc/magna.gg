@@ -1,6 +1,6 @@
-// @flow
+// @flow strict
 
-/* eslint-disable jsx-a11y/anchor-is-valid, max-len */
+/* eslint-disable max-len */
 
 import {type PlayerType, TEAMS} from '../../config';
 import React, {type Element, memo} from 'react';

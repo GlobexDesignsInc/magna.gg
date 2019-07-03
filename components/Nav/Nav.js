@@ -1,6 +1,4 @@
-// @flow
-
-/* eslint-disable jsx-a11y/anchor-is-valid */
+// @flow strict
 
 import React, {type Element, memo} from 'react';
 import Link from 'next/link';

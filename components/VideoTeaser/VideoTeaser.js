@@ -1,6 +1,4 @@
-// @flow
-
-/* eslint-disable jsx-a11y/media-has-caption */
+// @flow strict
 
 import React, {type Element, memo, type Node} from 'react';
 import InnerContent from '../InnerContent';

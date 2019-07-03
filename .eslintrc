@@ -7,6 +7,7 @@
         }
     }],
     "rules": {
+        "jsx-a11y/anchor-is-valid": "off",
         "jsx-a11y/html-has-lang": "off",
         "no-process-env": "off",
         "promise/no-native": "off"

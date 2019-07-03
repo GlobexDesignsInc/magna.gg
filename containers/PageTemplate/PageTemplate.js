@@ -1,4 +1,4 @@
-// @flow
+// @flow strict
 
 import React, {type Element, Fragment, memo, type Node} from 'react';
 import Footer from '../../components/Footer';
