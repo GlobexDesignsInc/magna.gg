@@ -19,7 +19,7 @@ export const Store = (): Element<typeof PageTemplate> => (
 
 			<div className={styles.items}>
 				<MerchItem
-					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-aeca65ea_480x.jpg'
+					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-f5ecd655_960x.jpg'
 					name='Magna Esports T-Shirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-flame-logo-t-shirt' />
 				<MerchItem
@@ -31,11 +31,11 @@ export const Store = (): Element<typeof PageTemplate> => (
 					name='Magna Esports Ventus T-Shirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-esports-ventus-shirt' />
 				<MerchItem
-					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-9349abc3_1024x1024.jpg'
+					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-b19e0dab_960x.jpg'
 					name='Magna Esports Terra T-Shirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-esports-terra-shirt' />
 				<MerchItem
-					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-ceaeaa7a_480x.jpg'
+					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-c8865c8c_960x.jpg'
 					name='Magna Esports Sweatshirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-flame-logo-sweatshirt' />
 			</div>
