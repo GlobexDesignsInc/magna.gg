@@ -1395,7 +1395,7 @@ archiver-utils@^2.1.0:
     normalize-path "^3.0.0"
     readable-stream "^2.0.0"
 
-archiver@^3.0.0:
+archiver@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/archiver/-/archiver-3.1.1.tgz#9db7819d4daf60aec10fe86b16cb9258ced66ea0"
   integrity sha512-5Hxxcig7gw5Jod/8Gq0OneVgLYET+oNHcxgWItq4TbhOzRLKNAFUb9edAftiMKXvXfCB0vbGrJdZDNq0dWMsxg==
@@ -2292,6 +2292,11 @@ commander@^2.11.0, commander@^2.18.0, commander@^2.19.0, commander@^2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
+
+commander@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-3.0.0.tgz#0641ea00838c7a964627f04cddc336a2deddd60a"
+  integrity sha512-pl3QrGOBa9RZaslQiqnnKX2J068wcQw7j9AIaBQ9/JEp5RY6je4jKTImg0Bd+rpoONSe7GUFSgkxLeo17m3Pow==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -4284,7 +4289,7 @@ ini@^1.3.5, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-inquirer@^6.4.1:
+inquirer@^6.4.1, inquirer@^6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.5.1.tgz#8bfb7a5ac02dac6ff641ac4c5ff17da112fcdb42"
   integrity sha512-uxNHBeQhRXIoHWTSNYUFhQVrHYFThIt6IVo2fFmSe8aBwdR3/w6b58hJpiL/fMukFkvGzjg+hSxFtwvVmKZmXw==
@@ -7199,18 +7204,18 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rocketry@0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/rocketry/-/rocketry-0.6.2.tgz#262cef206ed075625647fb753eda0c80fef2c289"
-  integrity sha512-1WII9poP4l+QCIahDcDmRHiENZ99MPfdkALiJ+lKSpiupm67Xtd8wLkK7hS3Lf+UkCzJ/b59OWSMbkLuAaVA4g==
+rocketry@0.6.3:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/rocketry/-/rocketry-0.6.3.tgz#d3608e9ef3cc9999b2a641a75550e363b773ee82"
+  integrity sha512-U+0hD/TqmudXI9qqekIwGrmAp9adfygnBeDXTosQsCASffq2RXB5M8eIO/hY7/HjoTuCe6e6OarCxrxY5nwUrg==
   dependencies:
     "@hapi/joi" "^15.1.0"
-    archiver "^3.0.0"
+    archiver "^3.1.1"
     chalk "^2.4.2"
-    commander "^2.20.0"
+    commander "^3.0.0"
     cosmiconfig "^5.2.1"
     glob "^7.1.4"
-    inquirer "^6.4.1"
+    inquirer "^6.5.1"
     node-ssh "^6.0.0"
     ora "^3.4.0"
 
