@@ -12,19 +12,19 @@ export const Nav = ({
 	className,
 }: PropsType): Element<'nav'> => (
 	<nav className={className}>
-		<Link href='/' prefetch={true}>
+		<Link href='/'>
 			<a className={styles.link}>Home</a>
 		</Link>
-		<Link href='/matches' prefetch={true}>
+		<Link href='/matches'>
 			<a className={styles.link}>Matches</a>
 		</Link>
-		<Link href='/teams' prefetch={true}>
+		<Link href='/teams'>
 			<a className={styles.link}>Teams</a>
 		</Link>
-		<Link href='/store' prefetch={true}>
+		<Link href='/store'>
 			<a className={styles.link}>Store</a>
 		</Link>
-		<Link href='/contact' prefetch={true}>
+		<Link href='/contact'>
 			<a className={styles.link}>Contact</a>
 		</Link>
 	</nav>
