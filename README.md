@@ -1,5 +1,7 @@
 # magna.gg
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/GlobexDesignsInc/magna.gg.svg)](https://greenkeeper.io/)
+
 > The official website for Magna eSports
 
 - Built with `nextjs`
