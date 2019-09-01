@@ -75,8 +75,10 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Vrosado',
 			role: 'Flex Support',
 		}, {
-			name: 'Jay',
+			name: 'Rovi',
 			role: 'Off-Tank',
+			twitch: 'rovi_ow',
+			twitter: 'rovi_ow',
 		}, {
 			// eslint-disable-next-line max-len
 			bio: `Hi, I’m Zeus. I’m 15 and play hitscan for Terra. I love being forced to play sombra. But I like winning so I'll play her. I excel on Widow, Genji, and Zarya and have reached a peak sr of 4295. I sometimes stream on Twitch.`,
