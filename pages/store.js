@@ -23,11 +23,11 @@ export const Store = (): Element<typeof PageTemplate> => (
 					name='Magna Esports T-Shirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-flame-logo-t-shirt' />
 				<MerchItem
-					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-32bcb102_480x.jpg'
+					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-5a133af8_960x.jpg'
 					name='Magna Esports Ignis T-Shirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-esports-ignis-shirt' />
 				<MerchItem
-					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-2578e7dd_480x.jpg'
+					imageUrl='https://cdn.shopify.com/s/files/1/0039/4215/4275/products/mockup-a18a7f01_960x.jpg'
 					name='Magna Esports Ventus T-Shirt'
 					url='https://sbs-streetwear.myshopify.com/collections/magna/products/magna-esports-ventus-shirt' />
 				<MerchItem
