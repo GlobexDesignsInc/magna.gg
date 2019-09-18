@@ -19,37 +19,7 @@ export type TeamType = {|
 export const TEAMS: {[key: TeamIdType]: TeamType} = {
 	ignis: {
 		name: 'Magna Ignis',
-		players: [{
-			// eslint-disable-next-line max-len
-			bio: `Hey, the name’s Pyro, I’m an Off tank player who prides herself on her Zarya play and over my almost two years of playing Overwatch have climbed from Silver to GM, and plan on continuing to work my way to the top. I’ve been playing with Magna since its first days, and working alongside my team to improve. Prior to Overwatch I played a mix of games such as CS:GO and Xcom EU/EW. Outside of gaming I’m a University student in computer science in Toronto, and an avid fan of sushi (and seafood in general).`,
-			name: 'Pyro',
-			role: 'Off-Tank',
-			twitch: 'pyrothetank',
-		}, {
-			// eslint-disable-next-line max-len
-			bio: `Hi, im squid, but you may also know me as Ally. Im 15 years old and I play flex dps for Ignis. My biggest passion is gaming and esports. I put all the work I can into the job i've been assigned and try to surpass expectations. My favorite heroes at the moment are Genji, Pharah, Doomfist and Widow but this changes often as I'm comfortable flexing onto almost anyone. Overwatch is my first pc fps but as I've been playing since open beta, I plan on grinding as much as I can and possibly making it more than a hobby!`,
-			name: 'Squid',
-			role: 'Flex DPS',
-			twitter: 'squid__ow',
-		}, {
-			// eslint-disable-next-line max-len
-			bio: `I'm Seyeumi and I am a Zenyatta and Ana specialist, but I play every support. I'm 21 years old and I've been playing in the T3 scene since early 2017. Prior to Overwatch I was grinding semi-pro League of Legends, and with a strong desire leftover to reach the top I ended up grinding Overwatch since beta. I have so much left in me to prove myself. I also probably survive off of caffeine and boba.`,
-			name: 'Seyeumi',
-			role: 'Flex Support',
-			twitch: 'seyeumi',
-			twitter: 'Seyeumi',
-		}, {
-			// eslint-disable-next-line max-len
-			bio: `Ayy whaddup, my name's Paendo and I'm the Main-Tank for Magna Ignis. I'm a Junior in Highschool and I have a PROFOUND love for english muffins. Up until a couple years ago, I played video games casually, but once I saw myself improve within Overwatch and go from Silver to Diamond in competitive (Season 5), I felt that I could make something awesome out of this. Everyone in competitive also seems to take a more toxic approach to dealing with other players, which can be very frustrating, but I try to keep the peace between the players and focus on the game. I know that if I work hard and improve, I can become better and better. I feel like I've finally found a team that can support me as a player and help me do just that. Thank you to everyone who has supported me. PS: VIBRANT IS A BOT`,
-			name: 'Paendo',
-			role: 'Main Tank',
-			twitch: 'paendotv',
-			twitter: 'PaendoTV',
-		}, {
-			name: 'HWM Muffin',
-			role: 'Main Support',
-			twitch: 'HWM_Muffin',
-		}],
+		players: [],
 	},
 	terra: {
 		name: 'Magna Terra',
@@ -86,6 +56,12 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			role: 'Hitscan',
 			twitch: 'zeus0w',
 			twitter: 'ZeusXDx3',
+		}, {
+			// eslint-disable-next-line max-len
+			bio: `Hi, im squid, but you may also know me as Ally. Im 15 years old and I play flex support for Terra. My biggest passion is gaming and esports. I put all the work I can into the job i've been assigned and try to surpass expectations. My favorite heroes at the moment are Genji, Pharah, Doomfist and Widow but this changes often as I'm comfortable flexing onto almost anyone. Overwatch is my first pc fps but as I've been playing since open beta, I plan on grinding as much as I can and possibly making it more than a hobby!`,
+			name: 'Squid',
+			role: 'Flex Support',
+			twitter: 'squid__ow',
 		}, {
 			name: 'Jay',
 			role: 'Sub',
