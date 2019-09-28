@@ -4,7 +4,6 @@
 
 import './_app.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import App, {Container} from 'next/app';
 import {DEFAULT_META, SITE_NAME} from '../constants/seo';
 import {
 	faAward,
@@ -20,7 +19,8 @@ import {
 	faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
 import {initGA, logPageView} from '../utils/analytics';
-import React, {type Element} from 'react';
+import React, {type Element, Fragment} from 'react';
+import App from 'next/app';
 import {Helmet} from 'react-helmet';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import Router from 'next/router';
@@ -48,17 +48,17 @@ export default class MyApp extends App {
 		Router.router.events.on('routeChangeComplete', logPageView);
 	}
 
-	render (): Element<typeof Container> {
+	render (): Element<typeof Fragment> {
 		const {Component, pageProps} = this.props;
 		return (
-			<Container>
+			<Fragment>
 				<Helmet
 					htmlAttributes={{lang: 'en'}}
 					meta={DEFAULT_META}
 					title={SITE_NAME}
 					titleTemplate={`%s | ${SITE_NAME}`} />
 				<Component {...pageProps} />
-			</Container>
+			</Fragment>
 		);
 	}
 }
