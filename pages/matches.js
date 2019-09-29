@@ -19,6 +19,11 @@ export const Matches = (): Element<typeof PageTemplate> => (
 			<h3>Past</h3>
 
 			<Match
+				date='Sept 28, 2019'
+				event='Kyber Gaming #2'
+				place={1}
+				team='terra' />
+			<Match
 				date='May 25, 2019'
 				event='NCS Minor | Overwatch: Philadelphia, PA'
 				place={2}
