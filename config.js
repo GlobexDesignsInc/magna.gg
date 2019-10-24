@@ -53,8 +53,8 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			twitter: 'ZeusXDx3',
 		}, {
 			// eslint-disable-next-line max-len
-			bio: `Hi, im squid, but you may also know me as Ally. Im 15 years old and I play flex support for Terra. My biggest passion is gaming and esports. I put all the work I can into the job i've been assigned and try to surpass expectations. My favorite heroes at the moment are Genji, Pharah, Doomfist and Widow but this changes often as I'm comfortable flexing onto almost anyone. Overwatch is my first pc fps but as I've been playing since open beta, I plan on grinding as much as I can and possibly making it more than a hobby!`,
-			name: 'Squid',
+			bio: `Hi, im squid. Im 15 years old and I play flex support for Terra. My biggest passion is gaming and esports. I put all the work I can into the job i've been assigned and try to surpass expectations. My best heroes at the moment are Ana, Moira, and Mercy but i'm always excited to learn a new hero or meta. Overwatch is my first pc fps but as I've been playing since open beta, I plan on grinding as much as I can and possibly making it more than a hobby!`,
+			name: 'squid',
 			role: 'Flex Support',
 			twitter: 'squid__ow',
 		}, {
