@@ -12,9 +12,7 @@ export const Teams = (): Element<typeof PageTemplate> => (
 			<title>Teams | Magna eSports</title>
 		</Helmet>
 		<InnerContent withPadding={true}>
-			<Team team='ignis' />
 			<Team team='terra' />
-			<Team team='ventus' />
 		</InnerContent>
 	</PageTemplate>
 );

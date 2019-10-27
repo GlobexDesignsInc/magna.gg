@@ -17,10 +17,6 @@ export type TeamType = {|
 
 // eslint-disable-next-line import/prefer-default-export
 export const TEAMS: {[key: TeamIdType]: TeamType} = {
-	ignis: {
-		name: 'Magna Ignis',
-		players: [],
-	},
 	terra: {
 		name: 'Magna Terra',
 		players: [{
@@ -64,9 +60,5 @@ export const TEAMS: {[key: TeamIdType]: TeamType} = {
 			name: 'Jay',
 			role: 'Sub',
 		}],
-	},
-	ventus: {
-		name: 'Magna Ventus',
-		players: [],
 	},
 };

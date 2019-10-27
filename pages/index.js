@@ -36,7 +36,7 @@ export const Home = (): Element<typeof PageTemplate> => (
 					Welcome to <strong className={styles.h1strong}>Magna eSports</strong>
 				</h1>
 				<p className={styles.slogan}>
-					We&apos;re a Tier 3 Overwatch organization with multiple teams (Ignis, Terra & Ventus) competing in the Open Division, OTC, WarpMeta and other tournaments & leagues.
+					We&apos;re a gaming organization with one Tier 3 Overwatch team (Terra) competing in the Open Division, OTC, AG Weekly and other tournaments & leagues.
 				</p>
 				<Button
 					className={styles.sloganButton}
